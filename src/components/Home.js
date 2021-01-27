@@ -65,7 +65,7 @@ const Home = (props) => {
                 <p>Connaissances en Développement Web, collaborations efficaces avec Développeurs Back-End. Concentration sur l’Expérience Utilisateur, le Marketing Web, et le Visual Design. J'allie ma sensibilité artistique avec l’innovation technologique.</p>
             </section>
             <section className="banner-footer">
-                <h1 style={{ fontSize: "24px", color: "#ffffff" }}><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Hello World!</em></h1>
+                <h1 style={{ fontSize: "24px", color: "#ffffff" }}><em>➝&nbsp;&nbsp;&nbsp;&nbsp;HelloHello World!</em></h1>
                 <p>Web/UI Visual Designer, 12 ans d'expérience dans la conception visuelle/développement de sites web créatifs, d'interfaces utilisateur et d'applications. Connaissances et compétences en Design et Développement.</p>
                 <h1 style={{ fontSize: "24px", color: "#ffffff" }}><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Expérience...</em></h1>
                 <p>Équipes internationales de Marketing numérique, équipes de R&D et équipes UX. Design Digital, sur des apps, des sites vitrines puis l’E-commerce, design d'interfaces utilisateur pour applications et sites, projets en mode «mobile-first».</p>
