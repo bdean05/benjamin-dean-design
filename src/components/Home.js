@@ -44,33 +44,41 @@ const Home = (props) => {
                 </div>
             </section>
             <section className="banner-two">
+
                 <div className="blocks">
                     <div className="block">
-                        <h1 style={{ fontSize: "24px", color: "#666b9f" }}><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Hello World!</em></h1>
+                        <h1 className="subtitle"><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Hello World!</em></h1>
                         <p>Web/UI Visual Designer, 12 ans d'expérience dans la conception visuelle/développement de sites web créatifs, d'interfaces utilisateur et d'applications. Connaissances et compétences en Design et Développement.</p>
-                        <h1 style={{ fontSize: "24px", color: "#666b9f" }}><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Expérience...</em></h1>
+                        <h1 className="subtitle"><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Expérience...</em></h1>
                         <p>Équipes internationales de Marketing numérique, équipes de R&D et équipes UX. Design Digital, sur des apps, des sites vitrines puis l’E-commerce, design d'interfaces utilisateur pour applications et sites, projets en mode «mobile-first».</p>
-                        <h1 style={{ fontSize: "24px", color: "#666b9f" }}><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Vers le futur !</em></h1>
-                        <p>Connaissances en Développement Web, collaborations efficaces avec Développeurs Back-End. Concentration sur l’Expérience Utilisateur, le Marketing Web, et le Visual Design. J'allie ma sensibilité artistique avec l’innovation technologique.</p>
+                        <h1 className="subtitle"><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Vers le futur !</em></h1>
+                        <p>Connaissances compétences en Développement Web, collaborations efficaces avec Développeurs Back-End. Concentration sur l’Expérience Utilisateur, le Marketing Web, et le Visual Design. J'allie ma sensibilité artistique avec l’innovation technologique.</p>
                     </div>
                     <div><img src={photoBio} alt="Logo" height="" width="" className="image" /></div>
                 </div>
             </section>
             <section className="banner-three">
-                <h1 style={{ fontSize: "24px", color: "#666b9f" }}><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Hello World!</em></h1>
-                <p>Web/UI Visual Designer, 12 ans d'expérience dans la conception visuelle/développement de sites web créatifs, d'interfaces utilisateur et d'applications. Connaissances et compétences en Design et Développement.</p>
-                <h1 style={{ fontSize: "24px", color: "#666b9f" }}><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Expérience...</em></h1>
-                <p>Équipes internationales de Marketing numérique, équipes de R&D et équipes UX. Design Digital, sur des apps, des sites vitrines puis l’E-commerce, design d'interfaces utilisateur pour applications et sites, projets en mode «mobile-first».</p>
-                <h1 style={{ fontSize: "24px", color: "#666b9f" }}><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Vers le futur !</em></h1>
-                <p>Connaissances en Développement Web, collaborations efficaces avec Développeurs Back-End. Concentration sur l’Expérience Utilisateur, le Marketing Web, et le Visual Design. J'allie ma sensibilité artistique avec l’innovation technologique.</p>
+
+                <h1 style={{ fontSize: "24px", color: "#666b9f" }}><em>Try out</em></h1>
+                <p>Doomsday</p>
+                <h1 style={{ fontSize: "24px", color: "#666b9f" }}><em>Try out</em></h1>
+                <p>Doomsday</p>
+                <h1 style={{ fontSize: "24px", color: "#666b9f" }}><em>Try out</em></h1>
+                <p>Doomsday</p>
+                <h1 style={{ fontSize: "24px", color: "#666b9f" }}><em>Try out</em></h1>
+                <p>Doomsday</p>
+                <h1 style={{ fontSize: "24px", color: "#666b9f" }}><em>Try out</em></h1>
+                <p>Doomsday</p>
+                <h1 style={{ fontSize: "24px", color: "#666b9f" }}><em>Try out</em></h1>
+                <p>Doomsday</p>
+                <h1 style={{ fontSize: "24px", color: "#666b9f" }}><em>Try out</em></h1>
+                <p>Doomsday</p>
+                <h1 style={{ fontSize: "24px", color: "#666b9f" }}><em>Try out</em></h1>
+                <p>Doomsday</p>
             </section>
             <section className="banner-footer">
-                <h1 style={{ fontSize: "24px", color: "#ffffff" }}><em>➝&nbsp;&nbsp;&nbsp;&nbsp;HelloHello World!</em></h1>
-                <p>Web/UI Visual Designer, 12 ans d'expérience dans la conception visuelle/développement de sites web créatifs, d'interfaces utilisateur et d'applications. Connaissances et compétences en Design et Développement.</p>
-                <h1 style={{ fontSize: "24px", color: "#ffffff" }}><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Expérience...</em></h1>
-                <p>Équipes internationales de Marketing numérique, équipes de R&D et équipes UX. Design Digital, sur des apps, des sites vitrines puis l’E-commerce, design d'interfaces utilisateur pour applications et sites, projets en mode «mobile-first».</p>
-                <h1 style={{ fontSize: "24px", color: "#ffffff" }}><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Vers le futur !</em></h1>
-                <p>Connaissances en Développement Web, collaborations efficaces avec Développeurs Back-End. Concentration sur l’Expérience Utilisateur, le Marketing Web, et le Visual Design. J'allie ma sensibilité artistique avec l’innovation technologique.</p>
+                <h1 style={{ fontSize: "24px", color: "#666b9f" }}><em>And more!</em></h1>
+                <p>The end</p>
             </section>
 
         </div>

@@ -55,6 +55,7 @@ const App = () => {
             <Route path="/songs" component={AutocompleteHook} />
             <Route path="/gallery" component={Gallery} />
             <Route path="/photos" component={Photos} />
+            <Route path="/#chapter4" component={Home} /> {/* on met toujours la route par défaut à la fin */}
             <Route path="/" component={Home} /> {/* on met toujours la route par défaut à la fin */}
 
           </Switch>

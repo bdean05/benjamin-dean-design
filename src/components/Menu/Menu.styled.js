@@ -13,7 +13,7 @@ export const StyledMenu = styled.nav`
   opacity: 0.8;
   top: 0;
   left: 0;
-  padding-top: 35px;
+  padding-top: 14px;
   transition: transform 0.3s ease-in-out;
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
   
