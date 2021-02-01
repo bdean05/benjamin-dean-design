@@ -149,8 +149,14 @@
 }
 
 .banner-three {
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
+  background-image: url('../assets/illustration_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center top;
   color: #222222;
+  margin-bottom: -19px;
+  padding: 100px 0px;
   font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
@@ -160,7 +166,7 @@
   font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-.blocks {text-decoration: none; text-align: justify; padding: 0px 30px; margin: auto; display: flex; align-items: center; justify-content: space-between; font-family: source_sans_prosemibold,-apple-system,blinkmacsystemfont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,arial,helvetica,sans-serif;}
+.blocks {text-decoration: none; text-align: justify; padding: 0px 30px; margin: auto; display: flex; align-items: center; justify-content: space-between; }
 .block { padding: 40px; }
 .image { padding: 60px 40px 40px 40px; width: 310px; }
 .subtitle { font-weight: lighter; font-size: 24px; color: #666b9f; }

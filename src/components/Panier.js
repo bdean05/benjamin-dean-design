@@ -102,6 +102,7 @@ const Panier = (props) => {
                     <button onClick={() => deleteProduct(index)}>Delete</button>
                     <hr></hr>
                 </div>
+
             )
 
             )}
