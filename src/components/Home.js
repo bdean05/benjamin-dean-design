@@ -3,6 +3,10 @@ import './style.css'
 import webWords from '../assets/web-words.png'
 import portfolioBhd from '../assets/Benj.h.Dean_portfolio-2021.pdf'
 import photoBio from '../assets/mac-notes-code.jpg'
+import textcv from '../assets/text-cv.png'
+import textportfolio from '../assets/text-portfolio.png'
+import pdffile from '../assets/PDF-file.png'
+import pdfsuitcase from '../assets/PDF-suitcase.png'
 
 
 
@@ -47,6 +51,7 @@ const Home = (props) => {
 
                 <div className="blocks">
                     <div className="block">
+
                         <h1 className="subtitle"><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Hello World!</em></h1>
                         <p>Web/UI Visual Designer, 12 ans d'expérience dans la conception visuelle/développement de sites web créatifs, d'interfaces utilisateur et d'applications. Connaissances et compétences en Design et Développement.</p>
                         <h1 className="subtitle"><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Expérience</em></h1>
@@ -60,10 +65,13 @@ const Home = (props) => {
             <section className="banner-three">
                 <div className="blocks">
                     <div className="block">
+                        <a name="chapter4">This is chapter 4</a>
                         <h1 className="subtitle"><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Mon profil</em></h1>
-                        <p>Vous souhaitez concevoir, refondre et optimiser les parcours utilisateurs, l’ergonomie, l’expérience et les interfaces pour votre client ? Accédez à mes services et téléchargez mon portfolio.</p>
+                        <p>Vous souhaitez créer, concevoir, refondre, développer et optimiser les parcours utilisateurs, l’ergonomie, l’expérience et les interfaces pour votre client ? Accédez à mes services créatifs et techniques. N'hésitez pas à téléchargez mon CV et mon portfolio.</p>
+                        <br></br>
                     </div>
-                    <div>kiki</div>
+                    <div className="block" style={{ textAlign: "center", marginTop: "25px" }}><img src={pdffile} alt="Logo" height="" width="" className="handicon" /><img src={textcv} alt="Logo" height="24px" width="" style={{ margin: "-50px 0px 50px 0px" }} className="block" /></div>
+                    <div className="block" style={{ textAlign: "center", marginTop: "25px" }}><img src={pdfsuitcase} alt="Logo" height="" width="" className="handicon" /><img src={textportfolio} alt="Logo" height="24px" width="" style={{ margin: "-50px 0px 50px 0px" }} className="block" /></div>
                 </div>
             </section>
             <section className="banner-footer">

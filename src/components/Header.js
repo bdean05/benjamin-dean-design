@@ -18,6 +18,7 @@ const Header = () => {
                 <Link className="menu-links" to="/#chapter4">À propos</Link>
                 <Link className="menu-links" to="/gallery">Portfolio</Link>
                 <Link className="menu-links" to="/messagerie">Contact</Link>
+                Click <a href="#chapter4">here</a> to read chapter 4.
                 <div className="social-box">
                     <a href="mailto:benjamin_h_dean@yahoo.com"><img src={mailto} alt="Mail to contact" height="" width="18" className="social-link" /></a>
                     <a href="https://www.linkedin.com/in/benjamin-hudson-dean/" target="_blank"><img src={linkedin} alt="LinkedIn" height="" width="18" className="social-link" /></a>

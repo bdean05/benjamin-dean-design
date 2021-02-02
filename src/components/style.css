@@ -11,7 +11,7 @@
     font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-.footer{
+.footer {
     width: 100%;
     height: 200px;
     background-color : blue;
@@ -151,12 +151,12 @@
 .banner-three {
   /*background-color: #ffffff;*/
   background-image: url('../assets/illustration_bg.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: 100%;
   background-position: center top;
   color: #222222;
   margin-bottom: -19px;
-  padding: 100px 0px;
+
   font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
@@ -171,6 +171,24 @@
 .image { padding: 60px 40px 40px 40px; width: 310px; }
 .subtitle { font-weight: lighter; font-size: 24px; color: #666b9f; }
 
+.handicon {
+    padding: 40px; 
+    height: 78px;
+    width: 80px;
+    animation: move 3s infinite ease-in-out;
+ }
+@keyframes move{
+  0% {
+    transform: scale(1,1);
+}
+50% {
+    transform: scale(1.2,1.2);
+}
+100% {
+    transform: scale(1,1);
+}
+}
+
 
 
 
@@ -183,11 +201,31 @@
 
 @media screen and (max-width: 960px) and (min-width: 871px) {
   .widthy {width:800px; margin:auto;}
+  .banner-three {
+    background-color: #ffffff;
+    /*background-image: url('../assets/illustration_bg.jpg');*/
+    background-repeat: repeat;
+    background-size: 100%;
+    background-position: center top;
+    color: #222222;
+    margin-bottom: -19px;
+    font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
 }
 
 @media screen and (max-width: 870px) and (min-width: 661px) {
   .social-box { display: block; float: right; margin: 52px 12px 0px 0px; background-color: #ffffff; padding: 12px 0px 12px 5px; margin: 42px 0px 0px 0px; }
   .widthy {width:660px; margin:auto;}
+  .banner-three {
+    background-color: #ffffff;
+    background-image: url('../assets/illustration_bg.jpg');
+    background-repeat: repeat;
+    background-size: auto 100%;
+    background-position: center top;
+    color: #222222;
+    margin-bottom: -19px;
+    font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
 }
 
 @media screen and (max-width: 660px) {
@@ -223,6 +261,17 @@
     .block { padding: 0px 10px; font-size: 19px; }
     .image { display: none; width: 310px; margin-top: -40px; }
     .subtitle { font-size: 30px; color: #666b9f; }
+
+    .banner-three {
+      background-color: #ffffff;
+      background-image: url('../assets/illustration_bg.jpg');
+      background-repeat: repeat;
+      background-size: auto 100%;
+      background-position: center top;
+      color: #222222;
+      margin-bottom: -19px;
+      font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
   }
 
 
