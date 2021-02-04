@@ -3,6 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 //import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+//import { Responsive, isMobileDevice, isTabletDevice, isLaptopDevice } from "responsive-react";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
