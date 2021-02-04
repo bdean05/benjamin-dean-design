@@ -71,6 +71,19 @@
     border-bottom: 1px solid #777777;
     border-spacing: 50px;
   }
+
+  .menu-links a:focus {
+    font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    position: relative;
+    margin: 25px;
+    text-decoration: none; 
+    color: #777777;
+    font-size: 14px;
+    font-weight: bolder;
+    border-bottom: 1px solid #777777;
+    border-spacing: 50px;
+  }
+  
   
 
   .social-link { margin: 0px 15px 0px 15px; opacity: 0.5; }
@@ -145,7 +158,7 @@
   background-color: #ebf4f7;
   color: #222222;
   font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-
+  padding-bottom: 20px;
 }
 
 .banner-three {
@@ -155,14 +168,14 @@
   background-size: 100%;
   background-position: center top;
   color: #222222;
-  margin-bottom: -19px;
-
+  margin-bottom: -25px;
   font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .banner-footer {
   background-color: #2b2a2c;
   color: #afafaf;
+  margin-bottom: -18px;
   font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
@@ -170,9 +183,9 @@
 .block { padding: 40px; }
 .image { padding: 60px 40px 40px 40px; width: 310px; }
 .subtitle { font-weight: lighter; font-size: 24px; color: #666b9f; }
+.icons { margin-top: 25px; display: flex; align-items: center; justify-content: space-between; }
 
 .handicon {
-    padding: 40px; 
     height: 78px;
     width: 80px;
     animation: move 3s infinite ease-in-out;
@@ -187,6 +200,25 @@
 100% {
     transform: scale(1,1);
 }
+}
+
+.button {
+  border: none;
+  color: #ffffff; 
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #8aa8e5; 
+}
+
+.button:hover {
+  background-color: #4b6fcf;
+  color: white;
 }
 
 
@@ -205,10 +237,10 @@
     background-color: #ffffff;
     /*background-image: url('../assets/illustration_bg.jpg');*/
     background-repeat: repeat;
-    background-size: 100%;
+    background-size: 115%;
     background-position: center top;
     color: #222222;
-    margin-bottom: -19px;
+    margin-bottom: -35px;
     font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   }
 }
@@ -264,7 +296,7 @@
 
     .banner-three {
       background-color: #ffffff;
-      background-image: url('../assets/illustration_bg.jpg');
+      background-image: none;
       background-repeat: repeat;
       background-size: auto 100%;
       background-position: center top;

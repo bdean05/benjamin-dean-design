@@ -16,6 +16,7 @@ import bhd from './assets/dean-design.png'
 import Burger from './components/Burger/Burger';
 import Menu from './components/Menu/Menu';
 import Exercice from './components/Exercice';
+import Footer from './components/Footer';
 
 const App = () => {
 
@@ -55,10 +56,11 @@ const App = () => {
             <Route path="/songs" component={AutocompleteHook} />
             <Route path="/gallery" component={Gallery} />
             <Route path="/photos" component={Photos} />
-            <Route path="/#chapter4" component={Home} /> {/* on met toujours la route par défaut à la fin */}
             <Route path="/" component={Home} /> {/* on met toujours la route par défaut à la fin */}
 
           </Switch>
+
+          <Footer />
         </div>
       </Router>
     </ThemeProvider>
