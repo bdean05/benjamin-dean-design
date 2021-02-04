@@ -173,9 +173,9 @@
 }
 
 .banner-footer {
+  padding: 35px; 
   background-color: #2b2a2c;
   color: #afafaf;
-  margin-bottom: -18px;
   font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
@@ -205,21 +205,32 @@
 .button {
   border: none;
   color: #ffffff; 
-  padding: 16px 32px;
+  padding: 14px 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: -15px 0px 30px 0px;
   transition-duration: 0.4s;
   cursor: pointer;
-  background-color: #8aa8e5; 
+  background-color: #7d91b3; 
+  font-size: 18px;
 }
 
 .button:hover {
-  background-color: #4b6fcf;
+  background-color: #3a5ba3;
   color: white;
 }
+
+
+.footer {font-size: 15px; color: #ffffff; width: 100%; background-color: #333333; margin: 0px; padding: 0px;}
+.five-columns {font-size: 15px; text-decoration: none; color: #ffffff; padding: 0px; margin: auto; display: flex; align-items: flex-start; justify-content: space-between; }
+.footer-list { flex-basis: 100%; font-size: 15px; padding: 0px 15px; }
+.footer-link a { font-size: 15px; text-decoration: none; color: #cccccc;}
+.footer-link a:hover { text-decoration: none; color: white;}
+.two-icons {margin: auto; display: flex; align-items: center; justify-content: space-between; text-align: center; }
+.social-icon {width: 28px; padding: 12px 20px; margin: auto; opacity: 0.7; display: flex; align-items: center; justify-content: space-between;}
+.social-icon:hover { opacity: 1; }
 
 
 
@@ -296,14 +307,41 @@
 
     .banner-three {
       background-color: #ffffff;
-      background-image: none;
+      background-image: url('../assets/illustration_bg.jpg');
       background-repeat: repeat;
-      background-size: auto 100%;
+      background-size: auto 130%;
       background-position: center top;
       color: #222222;
       margin-bottom: -19px;
       font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     }
+
+    .button {
+      border: none;
+      color: #ffffff; 
+      padding: 14px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 5px 0px 30px 0px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      background-color: #7d91b3; 
+      font-size: 22px;
+    }
+    
+    .button:hover {
+      background-color: #3a5ba3;
+      color: white;
+    }
+
+    .footer {color: #ffffff; width: 100%; background-color: #333333; margin: 0px; }
+    .five-columns {text-decoration: none; color: #ffffff; font-weight: bold; padding: 0px; margin: 0px; display: flex; flex-direction: column; align-items: center; }
+    .footer-link a {font-weight: bold; text-decoration: none; color: #cccccc;}
+    .footer-link a:hover {font-weight: bold; text-decoration: none; color: white;}
+    .two-icons {margin: auto; display: flex; align-items: center; justify-content: space-between;}
+    .social-icon {width: 32px; padding: 12px 20px; margin: auto; display: flex; align-items: center; justify-content: space-between;}
+
   }
 
 

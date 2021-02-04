@@ -17,6 +17,8 @@ import Burger from './components/Burger/Burger';
 import Menu from './components/Menu/Menu';
 import Exercice from './components/Exercice';
 import Footer from './components/Footer';
+import Timer from './components/Timer';
+
 
 const App = () => {
 
@@ -51,6 +53,7 @@ const App = () => {
           <Switch>
 
             <Route path="/exercice" component={Exercice} />
+            <Route path="/timer" component={Timer} />
             <Route path="/messagerie" component={Messagerie} />
             <Route path="/panier" component={Panier} />
             <Route path="/songs" component={AutocompleteHook} />
