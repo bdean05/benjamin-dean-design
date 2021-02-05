@@ -16,7 +16,7 @@ const Header = () => {
                 <Link style={{ textDecoration: "none" }} to="/"><img src={bhd} alt="Logo" height="" width="220" style={{ margin: "-12px 25px 0px 15px " }} /></Link>
                 <Link className="menu-links" to="/">Accueil</Link>
                 <a className="menu-links" href="/#a-propos">À propos</a>
-                <Link className="menu-links" to="/gallery">Portfolio</Link>
+                <Link className="menu-links" to="/portfolio">Portfolio</Link>
                 <Link className="menu-links" to="/messagerie">Contact</Link>
                 <div className="social-box">
                     <a href="mailto:benjamin_h_dean@yahoo.com"><img src={mailto} alt="Mail to contact" height="" width="18" className="social-link" /></a>

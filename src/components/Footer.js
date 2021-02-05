@@ -19,18 +19,21 @@ const Footer = (props) => {
     return (
         <div>
             <section className="banner-footer">
-                <h1 style={{ fontSize: "24px", color: "#666b9f", textAlign: "center" }}><em>And more!</em></h1>
+                <h1 className="big-word"><em>"If you think good design is expensive, you should look at the cost of bad design." - Dr. Ralf Speth, CEO Jaguar -</em></h1>
                 <div className="five-columns">
-                    <div className="footer-list">
+                    <div className="footer-menu" >
                         <h3>DEAN DESIGN</h3>
-                        <p className="footer-link"><a href="#">Accueil</a></p>
-                        <p className="footer-link"><a href="#">À propos</a></p>
-                        <p className="footer-link"><a href="#">Portfolio</a></p>
-                        <p className="footer-link"><a href="#">Contact</a></p>
+                        <p className="footer-link"><a href="/">Accueil</a></p>
+                        <p className="footer-link"><a href="/#a-propos">À propos</a></p>
+                        <p className="footer-link"><a href="/portfolio">Portfolio</a></p>
+                        <p className="footer-link"><a href="/dev-react">React</a></p>
+                        <p className="footer-link"><a href="/messagerie">Contact</a></p>
                     </div>
-                    <div className="footer-list">
-                        <h3>Benjamin H. Dean</h3>
-                        <p className="footer-link" style={{ textAlign: 'justify' }}>Web/UI/UX Visual Designer. Connaissances et compétences en Design et Développement, sur des apps, des sites E-commerce & vitrines, design d'interfaces utilisateur pour apps et sites, projets en mode «mobile-first».</p>
+                    <div className="footer-bio">
+                        <h3 style={{ letterSpacing: "1px", marginBottom: "25px" }}>Benjamin H. Dean</h3>
+                        <p>Je suis Web/UI/UX Visual Designer. J'ai les connaissances les compétences et la passion pour le Design et le Développement, sur des apps, des sites E-commerce & vitrines, design d'interfaces utilisateur pour apps et sites, projets en mode «mobile-first».</p>
+                        <p>J’ai 12 ans d'expérience dans la conception visuelle/dev de sites web créatifs, d'interfaces utilisateur et d'applications. J'ai travaillé dans des équipes internationales de marketing numérique, des équipes R&D et des équipes UX/UI.</p>
+                        <p>J’élargis constamment mes connaissances en développement avec le UX en collaborant efficacement avec les intégrateurs et développeurs ainsi que les équipes Marketing.</p>
                     </div>
                     <div>
                         <div className="two-icons">
@@ -40,13 +43,15 @@ const Footer = (props) => {
                             <a href="https://twitter.com/benjamin_h_dean" target="_blank"><img src={twitter2} alt="Twitter" height="" width="" className="social-icon" /></a>
                         </div>
 
-                        <div className="two-icons">
-                            <p style={{ textAlign: "center", padding: "20px 2px 0px 2px", fontSize: "15px", opacity: "0.6" }}>(+33) 6 14 31 73 56  /  Paris, France</p>
+                        <div >
+                            <p className="footer-link"><a href="mailto:benjamin_h_dean@yahoo.com" style={{ padding: "0px 0px 0px 20px" }}>E-mail : benjamin_h_dean@yahoo.com</a></p>
+                            <p className="contacting">Mob : (+33) 6 14 31 73 56</p>
+                            <p className="contacting">Paris, France</p>
                         </div>
 
                     </div>
                 </div>
-                <p style={{ marginTop: "45px", padding: "0px", fontSize: "12px", textAlign: "center" }}>2021 &copy; Template by Benjamin H. Dean</p>
+                <p className="copyright">2021 &copy; Template by Benjamin H. Dean</p>
             </section>
         </div >
     )

@@ -30,22 +30,22 @@ const Home = (props) => {
                 <div className="widthy">
                     <div className="four-chapters">
                         <div className="chapter-group">
-                            <a href="#" style={{ textDecoration: "none" }} >
+                            <a href="/portfolio#webdesign" style={{ textDecoration: "none" }} >
                                 <div className="primary-titles">WEB DESIGN</div>
                             </a>
                         </div>
                         <div>
-                            <a href="#" style={{ textDecoration: "none" }} >
+                            <a href="/portfolio#uidesign" style={{ textDecoration: "none" }} >
                                 <div className="primary-titles">UI DESIGN</div>
                             </a>
                         </div>
                         <div>
-                            <a href="#" style={{ textDecoration: "none" }} >
+                            <a href="/portfolio#graphicdesign" style={{ textDecoration: "none" }} >
                                 <div className="primary-titles">GRAPHIC DESIGN</div>
                             </a>
                         </div>
                         <div>
-                            <a href="#" style={{ textDecoration: "none" }} >
+                            <a href="/portfolio#illustration" style={{ textDecoration: "none" }} >
                                 <div className="primary-titles">ILLUSTRATION</div>
                             </a>
                         </div>
@@ -75,14 +75,14 @@ const Home = (props) => {
                         <div className="icons">
                             <div style={{ textAlign: "center", padding: "0px 35px 35px 0px" }}>
                                 <a href={cvBhd} download="Benj.h.Dean_resume_2021_designer.pdf">
-                                    <img src={arrow1} alt="Logo" height="29px" width="" style={{ margin: "-20px 0px 20px -75px", opacity: "0.5" }} />
+                                    <img src={arrow1} alt="Logo" height="28px" width="" style={{ margin: "-16px 0px 20px -75px" }} />
                                     <div><img src={pdffile} alt="Logo" height="" width="" className="handicon" /></div>
                                     <img src={textcv} alt="Logo" height="24px" width="" style={{ marginTop: "25px" }} />
                                 </a>
                             </div>
                             <div style={{ textAlign: "center", padding: "0px 0px 35px 35px" }}>
                                 <a href={portfolioBhd} download="Benj.h.Dean_portfolio-2021.pdf">
-                                    <img src={arrow2} alt="Logo" height="33px" width="" style={{ margin: "-20px 0px 20px -75px", opacity: "0.5" }} />
+                                    <img src={arrow2} alt="Logo" height="32px" width="" style={{ margin: "-16px 0px 20px -75px" }} />
                                     <div><img src={pdfsuitcase} alt="Logo" height="" width="" className="handicon" /></div>
                                     <img src={textportfolio} alt="Logo" height="24px" width="" style={{ marginTop: "25px" }} />
                                 </a>

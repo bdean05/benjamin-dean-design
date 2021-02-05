@@ -209,12 +209,14 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
   margin: -15px 0px 30px 0px;
   transition-duration: 0.4s;
   cursor: pointer;
   background-color: #7d91b3; 
   font-size: 18px;
+  font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
 }
 
 .button:hover {
@@ -224,13 +226,17 @@
 
 
 .footer {font-size: 15px; color: #ffffff; width: 100%; background-color: #333333; margin: 0px; padding: 0px;}
-.five-columns {font-size: 15px; text-decoration: none; color: #ffffff; padding: 0px; margin: auto; display: flex; align-items: flex-start; justify-content: space-between; }
-.footer-list { flex-basis: 100%; font-size: 15px; padding: 0px 15px; }
-.footer-link a { font-size: 15px; text-decoration: none; color: #cccccc;}
+.big-word {font-size: 22px; color: #666b9f; text-align: center; font-weight: lighter; letter-spacing: 1.5px; margin: 18px 0px 40px 0px; }
+.five-columns { font-size: 15px; text-decoration: none; color: #ffffff; padding: 0px; margin: auto; display: flex; align-items: flex-start; justify-content: space-between; }
+.footer-menu { font-size: 15px; padding: 0px 25px;}
+.footer-bio { flex-basis: 50%; font-size: 14px; padding: 0px 15px; color: #cccccc; font-weight: lighter; }
+.footer-link a { font-size: 15px; text-decoration: none; color: #cccccc;  line-height: 24px; }
 .footer-link a:hover { text-decoration: none; color: white;}
 .two-icons {margin: auto; display: flex; align-items: center; justify-content: space-between; text-align: center; }
 .social-icon {width: 28px; padding: 12px 20px; margin: auto; opacity: 0.7; display: flex; align-items: center; justify-content: space-between;}
 .social-icon:hover { opacity: 1; }
+.contacting {padding: 20px 2px 0px 20px; font-size: 15px; opacity: 0.6;}
+.copyright { margin-top: 55px; padding: 0px; font-size: 12px; text-align: center; }
 
 
 
