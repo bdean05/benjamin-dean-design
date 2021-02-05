@@ -118,10 +118,6 @@
   to {opacity: 1;}
 }
 
-.mobile-logo {
-    display: none;
-}
-
 .widthy {width:960px; margin:auto;}
 .banner-one {color: #004fb6; text-align: center; width: 100%; background-color:#ffffff; margin: 0px;}
 .four-chapters {text-decoration: none; font-weight: bold; text-align: center; padding: 20px; margin: auto; display: flex; align-items: center; justify-content: space-between;}
@@ -273,15 +269,30 @@
     background-position: center top;
     color: #222222;
     margin-bottom: -19px;
-    font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  }
+    font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
 }
+
+
+
+/*
+@media screen and (min-width: 361px) and (max-width: 375px) {
+  .mobile-logo { display: inline; margin: -10px 0px 0px -5px; }
+}
+
+*/
+
+
+
+
+/* GENERAL MOBILE */ 
 
 @media screen and (max-width: 660px) {
 
     .sticky .sticky-inner { display: none; }
     .sticky-wrapper { display: none;}
-    .mobile-logo { display:inline; }
+    .mobile-logo { display: inline; }
+    .container {align-items: center; display: block; margin-left: auto; margin-right: auto; padding: 15px;}
+    
 
     .widthy {width:375px; margin:auto;}
     .widthy-two {width:375px; margin:auto;}

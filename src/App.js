@@ -12,7 +12,7 @@ import Photos from './components/Photos';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './global';
 import { theme } from './theme';
-import bhd from './assets/dean-design.png'
+import bhdmobile from './assets/dean-design-mobile.png'
 import Burger from './components/Burger/Burger';
 import Menu from './components/Menu/Menu';
 import Exercice from './components/Exercice';
@@ -43,10 +43,9 @@ const App = () => {
           <div className={`sticky-wrapper ${isSticky ? 'sticky' : ''}`} ref={stickyHeaderRef}>
             <Header />
           </div>
-          <div>
+          <div className="container">
             <Burger open={open} setOpen={setOpen} />
-            <img className="mobile-logo" src={bhd} alt="Logo" height="" width="255" style={{ margin: "32px 0px 35px 90px" }} />
-
+            <img className="mobile-logo" src={bhdmobile} alt="Logo" height="" width="255" style={{ marginLeft: "60px" }} />
             <Menu open={open} setOpen={setOpen} />
           </div>
           {/* A Switch looks through its children Routes and
