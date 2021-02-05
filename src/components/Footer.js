@@ -32,7 +32,7 @@ const Footer = (props) => {
                     <div className="footer-bio">
                         <h3 style={{ letterSpacing: "1px", marginBottom: "25px" }}>Benjamin H. Dean</h3>
                         <p>Je suis Web/UI/UX Visual Designer. J'ai les connaissances les compétences et la passion pour le Design et le Développement, sur des apps, des sites E-commerce & vitrines, design d'interfaces utilisateur pour apps et sites, projets en mode «mobile-first».</p>
-                        <p>J’ai 12 ans d'expérience dans la conception visuelle/dev de sites web créatifs, d'interfaces utilisateur et d'applications. J'ai travaillé dans des équipes internationales de marketing numérique, des équipes R&D et des équipes UX/UI.</p>
+                        <p>J’ai 12 ans d'expérience dans la conception visuelle/dev de sites web créatifs, d'interfaces utilisateur et d'applications. J'ai travaillé dans des équipes internationales de marketing numérique, des équipes R&D et des équipes UX.</p>
                         <p>J’élargis constamment mes connaissances en développement avec le UX en collaborant efficacement avec les intégrateurs et développeurs ainsi que les équipes Marketing.</p>
                     </div>
                     <div>
