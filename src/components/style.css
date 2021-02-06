@@ -307,7 +307,7 @@
     .bigLetters {margin-left: auto; margin-right: auto; display: flex; justify-content: center; text-align: center; padding-top: 305px;  }
     #pot {
       position: relative;
-      animation: bigletters 20s 30;
+      animation: bigletters 10s 50;
       animation-direction: alternate;
     }
     @keyframes bigletters {

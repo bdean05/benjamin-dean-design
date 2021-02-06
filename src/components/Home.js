@@ -17,7 +17,7 @@ const Home = (props) => {
     return (
         <div>
 
-            <a href={portfolioBhd} download="Benj.h.Dean_portfolio-2021.pdf">
+            <a href="/#a-propos">
                 <section className="slider fade">
                     <div className="bigLetters" id="pot">
                         <img src={webWords} alt="Logo" height="99" width="1420" />
