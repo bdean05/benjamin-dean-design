@@ -11,12 +11,8 @@
     font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-.footer {
-    width: 100%;
-    height: 200px;
-    background-color : blue;
-    display: flex;
-    flex-direction: row;
+p { font-size: 16px;
+    line-height: 1.4em;
     font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
@@ -178,7 +174,7 @@
 .blocks {text-decoration: none; text-align: justify; padding: 0px 30px; margin: auto; display: flex; align-items: center; justify-content: space-between; }
 .block { padding: 40px; }
 .image { padding: 60px 40px 40px 40px; width: 310px; }
-.subtitle { font-weight: lighter; font-size: 24px; color: #666b9f; }
+.subtitle { font-size: 24px; color: #666b9f; }
 .icons { margin-top: 25px; display: flex; align-items: center; justify-content: space-between; }
 
 .handicon {
@@ -210,7 +206,8 @@
   transition-duration: 0.4s;
   cursor: pointer;
   background-color: #7d91b3; 
-  font-size: 18px;
+  font-size: 17px;
+  letter-spacing: 1px;
   font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 }
@@ -222,12 +219,12 @@
 
 
 .footer {font-size: 15px; color: #ffffff; width: 100%; background-color: #333333; margin: 0px; padding: 0px;}
-.big-word {font-size: 22px; color: #666b9f; text-align: center; font-weight: lighter; letter-spacing: 1.5px; margin: 18px 0px 40px 0px; }
+.big-word {font-size: 22px; color: #666b9f; text-align: center; font-weight: lighter; letter-spacing: 0.9px; margin: 18px 0px 40px 0px; line-height: 2em; }
 .five-columns { font-size: 15px; text-decoration: none; color: #ffffff; padding: 0px; margin: auto; display: flex; align-items: flex-start; justify-content: space-between; }
-.footer-menu { font-size: 15px; padding: 0px 25px;}
+.footer-menu { text-align: left; font-size: 15px; padding: 0px 25px;}
 .footer-bio { flex-basis: 50%; font-size: 14px; padding: 0px 15px; color: #cccccc; font-weight: lighter; }
-.footer-link a { font-size: 15px; text-decoration: none; color: #cccccc;  line-height: 24px; }
-.footer-link a:hover { text-decoration: none; color: white;}
+.footer-link a { text-align: left; font-size: 15px; text-decoration: none; color: #cccccc;  line-height: 24px; }
+.footer-link a:hover { text-align: left; text-decoration: none; color: white;}
 .two-icons {margin: auto; display: flex; align-items: center; justify-content: space-between; text-align: center; }
 .social-icon {width: 28px; padding: 12px 20px; margin: auto; opacity: 0.7; display: flex; align-items: center; justify-content: space-between;}
 .social-icon:hover { opacity: 1; }
@@ -272,18 +269,6 @@
     font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
 }
 
-
-
-/*
-@media screen and (min-width: 361px) and (max-width: 375px) {
-  .mobile-logo { display: inline; margin: -10px 0px 0px -5px; }
-}
-
-*/
-
-
-
-
 /* GENERAL MOBILE */ 
 
 @media screen and (max-width: 660px) {
@@ -292,6 +277,11 @@
     .sticky-wrapper { display: none;}
     .mobile-logo { display: inline; }
     .container {align-items: center; display: block; margin-left: auto; margin-right: auto; padding: 15px; margin-top: 4px;}
+    p { font-size: 17px;
+      line-height: 1.5em;
+      font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-weight: normal;
+      }
     
 
     .widthy {width:375px; margin:auto;}
@@ -307,7 +297,7 @@
     .bigLetters {margin-left: auto; margin-right: auto; display: flex; justify-content: center; text-align: center; padding-top: 305px;  }
     #pot {
       position: relative;
-      animation: bigletters 10s 50;
+      animation: bigletters 10s 1000;
       animation-direction: alternate;
       margin-left: 650px;
     }

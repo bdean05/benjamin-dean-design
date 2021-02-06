@@ -19,7 +19,7 @@ const Footer = (props) => {
     return (
         <div>
             <section className="banner-footer">
-                <h1 className="big-word"><em>"If you think good design is expensive, you should look at the cost of bad design." - Dr. Ralf Speth, CEO Jaguar -</em></h1>
+                <h1 className="big-word"><em>"If you think good design is expensive, you should look at the cost of bad design."<br></br>- Dr. Ralf Speth, CEO Jaguar -</em></h1>
                 <div className="five-columns">
                     <div className="footer-menu" >
                         <h3>DEAN DESIGN</h3>
