@@ -309,13 +309,14 @@
       position: relative;
       animation: bigletters 10s 50;
       animation-direction: alternate;
+      margin-left: 650px;
     }
     @keyframes bigletters {
       0%   {left: -100%; top: 0px;}
       100% {left: 10%; top: 0px;}
-      0%   {left: -150%; top: 0px;}
+      0%   {left: -100%; top: 0px;}
       100% {left: 10%; top: 0px;}
-      0%   {left: -150%; top: 0px;}
+      0%   {left: -100%; top: 0px;}
     }
     .blocks {text-decoration: none; text-align: left; padding: 20px; margin: auto; display: flex; flex-direction: column; align-items: center; justify-content: space-between; font-family: source_sans_prosemibold,-apple-system,blinkmacsystemfont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,arial,helvetica,sans-serif;}
     .block { padding: 0px 10px; font-size: 19px; }
