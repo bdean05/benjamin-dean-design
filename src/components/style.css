@@ -291,7 +291,7 @@
     .sticky .sticky-inner { display: none; }
     .sticky-wrapper { display: none;}
     .mobile-logo { display: inline; }
-    .container {align-items: center; display: block; margin-left: auto; margin-right: auto; padding: 15px;}
+    .container {align-items: center; display: block; margin-left: auto; margin-right: auto; padding: 15px; margin-top: 4px;}
     
 
     .widthy {width:375px; margin:auto;}
