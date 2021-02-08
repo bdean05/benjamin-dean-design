@@ -45,7 +45,7 @@ const App = () => {
           </div>
           <div className="container">
             <Burger open={open} setOpen={setOpen} />
-            <img className="mobile-logo" src={bhdmobile} alt="Logo" height="" width="255" style={{ marginLeft: "62px" }} />
+            <Link style={{ textDecoration: "none" }} to="/"><img className="mobile-logo" src={bhdmobile} alt="Logo" height="" width="255" style={{ marginLeft: "62px" }} /></Link>
             <Menu open={open} setOpen={setOpen} />
           </div>
           {/* A Switch looks through its children Routes and
