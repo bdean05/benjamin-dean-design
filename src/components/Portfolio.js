@@ -36,17 +36,17 @@ const Portfolio = (props) => {
                 <img src={bhd_02} alt="Dean Design Portfolio page 2" height="" width="100%" />
                 <a name="uidesign"></a>
                 <img src={bhd_03} alt="Dean Design Portfolio page 3" height="" width="100%" />
-                <img src={bhd_04} alt="Dean Design Portfolio page 4" height="" width="100%" />
-                <img src={bhd_05} alt="Dean Design Portfolio page 5" height="" width="100%" />
+                <img src={bhd_12} alt="Dean Design Portfolio page 12" height="" width="100%" />
+                <img src={bhd_08} alt="Dean Design Portfolio page 8" height="" width="100%" />
                 <img src={bhd_06} alt="Dean Design Portfolio page 6" height="" width="100%" />
                 <a name="graphicdesign"></a>
                 <img src={bhd_07} alt="Dean Design Portfolio page 7" height="" width="100%" />
-                <img src={bhd_08} alt="Dean Design Portfolio page 8" height="" width="100%" />
+                <img src={bhd_10} alt="Dean Design Portfolio page 10" height="" width="100%" />
                 <img src={bhd_09} alt="Dean Design Portfolio page 9" height="" width="100%" />
                 <a name="illustration"></a>
-                <img src={bhd_10} alt="Dean Design Portfolio page 10" height="" width="100%" />
+                <img src={bhd_05} alt="Dean Design Portfolio page 5" height="" width="100%" />
                 <img src={bhd_11} alt="Dean Design Portfolio page 11" height="" width="100%" />
-                <img src={bhd_12} alt="Dean Design Portfolio page 12" height="" width="100%" />
+                <img src={bhd_04} alt="Dean Design Portfolio page 4" height="" width="100%" />
                 <img src={bhd_13} alt="Dean Design Portfolio page 13" height="" width="100%" />
                 <img src={bhd_14} alt="Dean Design Portfolio page 14" height="" width="100%" />
                 <img src={bhd_15} alt="Dean Design Portfolio page 15" height="" width="100%" />

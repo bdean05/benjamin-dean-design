@@ -97,6 +97,7 @@ p { font-size: 16px;
     background-size: cover;
 }
 
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -135,8 +136,7 @@ p { font-size: 16px;
 }
 
 .bigLetters {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 200px;
   display: flex;
   justify-content: center;
   text-align: center; 
@@ -174,7 +174,7 @@ p { font-size: 16px;
 .blocks {text-decoration: none; text-align: justify; padding: 0px 30px; margin: auto; display: flex; align-items: center; justify-content: space-between; }
 .block { padding: 40px; }
 .image { padding: 60px 40px 40px 40px; width: 310px; }
-.subtitle { font-size: 24px; color: #666b9f; }
+.subtitle { font-weight: normal; font-size: 24px; color: #666b9f; }
 .icons { margin-top: 25px; display: flex; align-items: center; justify-content: space-between; }
 
 .handicon {
@@ -308,7 +308,7 @@ p { font-size: 16px;
     .blocks {text-decoration: none; text-align: left; padding: 20px; margin: auto; display: flex; flex-direction: column; align-items: center; justify-content: space-between; font-family: source_sans_prosemibold,-apple-system,blinkmacsystemfont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,arial,helvetica,sans-serif;}
     .block { padding: 0px 10px; font-size: 19px; }
     .image { display: none; width: 310px; margin-top: -40px; }
-    .subtitle { font-size: 30px; color: #666b9f; }
+    .subtitle { font-weight: normal; font-size: 30px; color: #666b9f; }
 
     .banner-three {
       background-color: #ffffff;

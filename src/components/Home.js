@@ -18,7 +18,7 @@ const Home = (props) => {
         <div>
 
             <a href="/#a-propos">
-                <section className="slider fade">
+                <section className="slider">
                     <div className="bigLetters" id="pot">
                         <img src={webWords} alt="Logo" height="99" width="1420" />
                         <a name="a-propos"></a>
