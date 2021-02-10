@@ -34,6 +34,12 @@ const Messagerie = (props) => {
             <input placeholder="Type your message here..." value={message} onChange={e => setMessage(e.target.value)} />
             <button onClick={() => createNewMessage()}>Send</button>
 
+
+
+
+
+
+
         </div >
     )
 

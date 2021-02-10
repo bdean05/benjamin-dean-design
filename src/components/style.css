@@ -88,33 +88,44 @@ p { font-size: 16px;
 
 
   .slider{
-    width:100%;
-    height:400px;
-    background: url("../assets/slide1_bg.jpg") no-repeat center center;
+    margin-top: -298px;
+    margin-bottom: 310px;
+    width:200%;
+    height:387px;
+    background: url("../assets/slide1_bg_bis.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+    /*opacity: 0.95;*/
+  }
 
+  .slider2 {
+    width:100%;
+    height:140px;
+    background: url("../assets/slide1_bg.jpg") no-repeat center center;
+    background-position: top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*opacity: 0.95;*/
+  }
 
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
+  #slidetoleft {
+    position: relative;
+    animation: bigletters 20s 1000;
+    animation-direction: alternate-reverse;
+    /*margin-left: 650px;*/
+  }
+  @keyframes bigletters {
+    0%   {left: -250%; top: 0px;}
+    100% {left: 10%; top: 0px;}
+    0%   {left: -250%; top: 0px;}
+    
+  }
 
-@-webkit-keyframes fade {
-  from {opacity: 0;} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: 0;} 
-  to {opacity: 1;}
-}
-
+  
 .widthy {width:960px; margin:auto;}
 .banner-one {color: #004fb6; text-align: center; width: 100%; background-color:#ffffff; margin: 0px;}
 .four-chapters {text-decoration: none; font-weight: bold; text-align: center; padding: 20px; margin: auto; display: flex; align-items: center; justify-content: space-between;}
@@ -136,7 +147,7 @@ p { font-size: 16px;
 }
 
 .bigLetters {
-  margin-left: 200px;
+  /*margin-left: 200px;*/
   display: flex;
   justify-content: center;
   text-align: center; 
@@ -154,8 +165,8 @@ p { font-size: 16px;
 }
 
 .banner-three {
-  /*background-color: #ffffff;*/
-  background-image: url('../assets/illustration_bg.jpg');
+  background-color: #ffffff;
+  /*background-image: url('../assets/illustration_bg.jpg');*/
   background-repeat: repeat;
   background-size: 100%;
   background-position: center top;
@@ -211,10 +222,43 @@ p { font-size: 16px;
   font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 }
-
 .button:hover {
   background-color: #3a5ba3;
   color: white;
+}
+
+.portfolio-prez { margin: 0px 0px -25px 0px; }
+.portfolio-title { text-align: center; font-size: 28px; padding: 60px 0px 25px 0px; opacity: 0.2; font-weight: lighter; letter-spacing: 6px; font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+
+.contact-form { 
+  margin: -10px 35px 35px 35px; 
+  font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+input[type=text], [type=email], [type=message], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea[name=message], select {
+  width: 100%;
+  height: 200%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
 }
 
 
@@ -234,7 +278,11 @@ p { font-size: 16px;
 
 
 
+
+
 /* ------- MEDIA QUERIES ------*/
+
+
 
 
 
@@ -269,11 +317,36 @@ p { font-size: 16px;
     font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
 }
 
+
+
+
+
 /* GENERAL MOBILE */ 
+
+
+
 
 @media screen and (max-width: 660px) {
 
-    .sticky .sticky-inner { display: none; }
+    
+  .slider{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width:100%;
+    height:400px;
+    background: url("../assets/slide1_bg.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation: none;
+  }
+
+  #slidetoleft { animation: none; }
+  
+  
+  
+  .sticky .sticky-inner { display: none; }
     .sticky-wrapper { display: none;}
     .mobile-logo { display: inline; }
     .container {align-items: center; display: block; margin-left: auto; margin-right: auto; padding: 15px; margin-top: 4px;}
@@ -287,9 +360,9 @@ p { font-size: 16px;
     .widthy {width:375px; margin:auto;}
     .widthy-two {width:375px; margin:auto;}
 
-    .slider {width:100%; background: url("../assets/slide1_bg.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+    /*.slider {width:100%; background: url("../assets/slide1_bg.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}*/ 
 
-    .banner-one {color: #ffffff; text-align: center; width: 100%; background-color:#ffffff; margin: 0px;}
+    .banner-one {color: #ffffff; text-align: center; width: 100%; background-color:#ffffff; margin: -304px 0px 0px 0px; }
     .four-chapters {text-decoration: none; font-weight: bold; text-align: center; padding: 20px; margin: auto; display: flex; flex-direction: column; align-items: center; justify-content: space-between;}
     .chapter-group {display: flex; flex-direction: row; margin: auto;}
     .primary-titles {padding: 8px; font-size: 24px; font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; color: #606380; opacity: 0.5; }
@@ -312,7 +385,7 @@ p { font-size: 16px;
 
     .banner-three {
       background-color: #ffffff;
-      background-image: url('../assets/illustration_bg.jpg');
+      /*background-image: url('../assets/illustration_bg.jpg');*/
       background-repeat: repeat;
       background-size: auto 130%;
       background-position: center top;
@@ -339,6 +412,9 @@ p { font-size: 16px;
       background-color: #3a5ba3;
       color: white;
     }
+
+    .portfolio-prez { display: none; }
+
 
     .footer { color: #ffffff; width: 100%; background-color: #333333; margin: 0px; }
     .big-word { font-size: 22px; color: #666b9f; text-align: center; font-weight: lighter; letter-spacing: 0.9px; margin: 18px 0px 40px 0px; line-height: 2em; }

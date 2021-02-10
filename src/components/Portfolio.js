@@ -30,8 +30,35 @@ import cvBhd from '../assets/Benj.h.Dean_resume_2021_designer.pdf'
 const Portfolio = (props) => {
     return (
         <div>
-            <section>
+            <section className="portfolio-prez">
+                <div className="portfolio-title">DESIGN & DEVELOPMENT</div>
+                <div className="widthy">
+                    <div className="four-chapters">
+                        <div className="chapter-group">
+                            <a href="/portfolio#webdesign" style={{ textDecoration: "none" }} >
+                                <div className="primary-titles">WEB DESIGN</div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="/portfolio#uidesign" style={{ textDecoration: "none" }} >
+                                <div className="primary-titles">UI DESIGN</div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="/portfolio#graphicdesign" style={{ textDecoration: "none" }} >
+                                <div className="primary-titles">GRAPHIC DESIGN</div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="/portfolio#illustration" style={{ textDecoration: "none" }} >
+                                <div className="primary-titles">ILLUSTRATION</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <a name="webdesign"></a>
+            </section>
+            <section>
                 <img src={bhd_01} alt="Dean Design Portfolio page 1" height="" width="100%" />
                 <img src={bhd_02} alt="Dean Design Portfolio page 2" height="" width="100%" />
                 <img src={bhd_17} alt="Dean Design Portfolio page 17" height="" width="100%" />
@@ -59,7 +86,7 @@ const Portfolio = (props) => {
             <section className="banner-three" style={{ borderTop: "1px solid #f5f5f7", marginTop: "50px" }}>
                 <div className="blocks">
                     <div className="block">
-                        <p style={{ lineHeight: "2.2", color: "#000000" }}>Vous souhaitez créer, concevoir, refondre, développer et optimiser les parcours utilisateurs, l’ergonomie, l’expérience et les interfaces pour votre client ? Accédez à mes services créatifs et techniques. N'hésitez pas à télécharger mon CV et mon portfolio.</p>
+                        <p style={{ lineHeight: "2.2", color: "#000000" }}>Vous souhaitez concevoir, créer, refondre, développer et optimiser les parcours utilisateurs, l’ergonomie, l’expérience et les interfaces pour votre client ? Accédez à mes services créatifs et techniques. N'hésitez pas à télécharger mon CV et mon portfolio.</p>
                     </div>
                     <div className="block">
                         <div className="icons">

@@ -8,6 +8,7 @@ import Gallery from './components/Gallery';
 import Header from './components/Header';
 import Panier from './components/Panier';
 import Messagerie from './components/Messagerie';
+import Form from './components/Form';
 import Photos from './components/Photos';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './global';
@@ -55,6 +56,7 @@ const App = () => {
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/exercice" component={Exercice} />
             <Route path="/timer" component={Timer} />
+            <Route path="/form" component={Form} />
             <Route path="/messagerie" component={Messagerie} />
             <Route path="/panier" component={Panier} />
             <Route path="/songs" component={AutocompleteHook} />
