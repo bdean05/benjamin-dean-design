@@ -27,7 +27,7 @@ const Footer = (props) => {
                         <p className="footer-link"><a href="/#a-propos">À propos</a></p>
                         <p className="footer-link"><a href="/portfolio">Portfolio</a></p>
                         <p className="footer-link"><a href="/dev-react">React</a></p>
-                        <p className="footer-link"><a href="/messagerie">Contact</a></p>
+                        <p className="footer-link"><a href="/form">Contact</a></p>
                     </div>
                     <div className="footer-bio">
                         <h3 style={{ letterSpacing: "1px", marginBottom: "25px" }}>Benjamin H. Dean</h3>

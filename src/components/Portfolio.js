@@ -107,7 +107,7 @@ const Portfolio = (props) => {
                         </div>
                     </div>
                 </div>
-                <div style={{ textAlign: "center", marginTop: "0px" }}><form action="/messagerie"><button class="button">Me contacter</button></form></div>
+                <div style={{ textAlign: "center", marginTop: "0px" }}><form action="/form"><button class="button">Me contacter</button></form></div>
                 <br></br>
                 <br></br>
                 <br></br>
