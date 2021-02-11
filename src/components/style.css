@@ -233,7 +233,7 @@ p { font-size: 16px;
 
 
 .contact-form { 
-  margin: -55px 35px 100px 70px; 
+  margin: -80px 35px 100px 70px; 
   font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   width: 750px;
 }
@@ -244,7 +244,7 @@ p { font-size: 16px;
 .mycontact { padding: 0px 2px 0px 20px; font-size: 15px; opacity: 0.6; }
 .contact-link a { text-align: left; font-size: 15px; text-decoration: none; color: #222222; }
 .contact-link a:hover { text-align: left; text-decoration: none; color: #222222;}
-.contact-social-icon { opacity: 0.8; width: 32px; padding: 12px 18px; margin: auto; display: flex; align-items: left; justify-content: space-between;}    
+.contact-social-icon { opacity: 0.6; width: 32px; padding: 12px 18px; margin: auto; display: flex; align-items: left; justify-content: space-between;}    
 .contact-social-icon:hover { opacity: 1; }
 .extra-contact-box { display: none;}    
 
