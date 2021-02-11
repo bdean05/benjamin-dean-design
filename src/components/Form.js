@@ -25,12 +25,12 @@ export default function ContactUs() {
         emailjs.sendForm('service_pz4j1s4', 'template_o5d10ee', e.target, 'user_YeWhLIZG6yUlR181HtQdM')
             .then((result) => {
                 if (result) {
-                    alert("Your message was sent!");
+                    alert("Votre message est envoyé !");
                     //setNotif("Your message was sent!")
                     //<label style={{ display: "none" }}>{notif}</label>
                 }
             }, (error) => {
-                alert("Your message failed.");
+                alert("Votre message n'est pas partie. Veuillez réessayer...");
             }).finally(() => {
                 // finally est l'étape finale d'une promesse en JS. Cette fonction est exécutée à la fin quoiqu'il arrive. Erreur ou pas erreur
                 // une fois que le mail est envoyé, on remet le loading à false
