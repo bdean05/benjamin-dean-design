@@ -55,7 +55,7 @@ export default function ContactUs() {
     return (
         <div>
 
-            <div className="slider2"></div>
+            <div className="slider-contact"></div>
 
             <div className="three-columns">
                 <div className="contact-prez" >

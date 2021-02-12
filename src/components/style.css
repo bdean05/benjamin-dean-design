@@ -235,7 +235,19 @@ p { font-size: 16px;
 /* ---------- CONTACT ---------- */
 
 
-  
+
+.slider-contact {
+  width:100%;
+  height:140px;
+  background: url("../assets/slide1_bg.jpg") no-repeat center center;
+  background-position: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*opacity: 0.95;*/
+}
+
 .contact-form { 
   margin: -80px 35px 100px 70px; 
   font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -539,5 +551,3 @@ input[type=submit]:hover {
     .copyright { margin-top: 55px; padding: 0px; font-size: 12px; text-align: center; }
 
   }
-
-
