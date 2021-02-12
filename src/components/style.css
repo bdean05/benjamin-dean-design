@@ -2,14 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-.header{
-    width: 100%;
-    height: 100px;
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: row;
-    font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
 
 p { font-size: 16px;
     line-height: 1.4em;
@@ -18,6 +10,19 @@ p { font-size: 16px;
 
 .element{
     flex: 1;
+}
+
+
+/* ---------- HEADER ---------- */
+
+
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .sticky-wrapper {
@@ -80,11 +85,15 @@ p { font-size: 16px;
     border-spacing: 50px;
   }
   
-  
-
   .social-link { margin: 0px 15px 0px 15px; opacity: 0.5; }
   .social-link:hover { margin: 0px 15px 0px 15px; opacity: 0.7; }
   .social-box { display: block; float: right; margin: 2px 12px 0px 0px; }
+
+  .mobile-logo { display:none; }
+
+
+
+/* ---------- SLIDER ---------- */
 
 
   .slider{
@@ -100,30 +109,47 @@ p { font-size: 16px;
     /*opacity: 0.95;*/
   }
 
-  .slider2 {
-    width:100%;
-    height:140px;
-    background: url("../assets/slide1_bg.jpg") no-repeat center center;
-    background-position: top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    /*opacity: 0.95;*/
-  }
-
   #slidetoleft {
     position: relative;
     animation: bigletters 20s 1000;
     animation-direction: alternate-reverse;
     /*margin-left: 650px;*/
   }
-  @keyframes bigletters {
+
+  .bigLetters {
+    /*margin-left: 200px;*/
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+  }
+
+  /* @keyframes bigletters {
     0%   {left: -250%; top: 0px;}
     100% {left: 10%; top: 0px;}
     0%   {left: -250%; top: 0px;}
-    
+  } */
+
+  @keyframes bigletters {
+    0%   {left: -100%; top: 310px;}
+    100% {left: 0%; top: 310px;}
+    0%   {left: -100%; top: 310px;}
   }
+  
+  /* #pot {
+    top: 310px;
+    position: relative;
+    animation: bigletters 20s 30;
+    animation-direction: alternate;
+  } */
+
+  #pot {
+    animation: none;
+  }
+
+
+
+/* ---------- CONTENT ---------- */
+
 
   
 .widthy {width:960px; margin:auto;}
@@ -131,31 +157,6 @@ p { font-size: 16px;
 .four-chapters {text-decoration: none; font-weight: bold; text-align: center; padding: 20px; margin: auto; display: flex; align-items: center; justify-content: space-between;}
 .primary-titles {font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; color: #606380; font-size: 20px; opacity: 0.5; }
 .primary-titles:hover {font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; color: #606380; font-size: 20px; opacity: 1; }
-.mobile-logo { display:none; }
-
-
-#pot {
-  top: 310px;
-  position: relative;
-  animation: bigletters 20s 30;
-  animation-direction: alternate;
-}
-@keyframes bigletters {
-  0%   {left: -100%; top: 310px;}
-  100% {left: 0%; top: 310px;}
-  0%   {left: -100%; top: 310px;}
-}
-
-.bigLetters {
-  /*margin-left: 200px;*/
-  display: flex;
-  justify-content: center;
-  text-align: center; 
-}
-
-#pot {
-  animation: none;
-}
 
 .banner-two {
   background-color: #ebf4f7;
@@ -175,13 +176,6 @@ p { font-size: 16px;
   font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-.banner-footer {
-  padding: 35px; 
-  background-color: #2b2a2c;
-  color: #afafaf;
-  font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-
 .blocks {text-decoration: none; text-align: justify; padding: 0px 30px; margin: auto; display: flex; align-items: center; justify-content: space-between; }
 .block { padding: 40px; }
 .image { padding: 60px 40px 40px 40px; width: 310px; }
@@ -196,13 +190,13 @@ p { font-size: 16px;
 @keyframes move{
   0% {
     transform: scale(1,1);
-}
+  }
 50% {
     transform: scale(1.2,1.2);
-}
+  }
 100% {
     transform: scale(1,1);
-}
+  }
 }
 
 .button {
@@ -227,11 +221,21 @@ p { font-size: 16px;
   color: white;
 }
 
+
+
+/* ---------- PORTFOLIO ---------- */
+
+
+  
 .portfolio-prez { margin: 0px 0px -25px 0px; }
 .portfolio-title { text-align: center; font-size: 28px; padding: 60px 0px 25px 0px; opacity: 0.2; font-weight: lighter; letter-spacing: 6px; font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 
 
+/* ---------- CONTACT ---------- */
+
+
+  
 .contact-form { 
   margin: -80px 35px 100px 70px; 
   font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -287,7 +291,32 @@ input[type=submit]:hover {
   background-color: #3a5ba3;
 }
 
+.notif-success {
+  background-color: rgb(143, 207, 143);
+  padding: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+}
 
+.notif-error {
+  background-color: rgb(224, 155, 155);
+  padding: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+
+
+/* ---------- FOOTER ---------- */
+
+
+  
+.banner-footer {
+  padding: 35px; 
+  background-color: #2b2a2c;
+  color: #afafaf;
+  font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
 .footer {font-size: 15px; color: #ffffff; width: 100%; background-color: #333333; margin: 0px; padding: 0px;}
 .big-word {font-size: 22px; color: #666b9f; text-align: center; font-weight: lighter; letter-spacing: 0.9px; margin: 18px 0px 40px 0px; line-height: 2em; }
 .five-columns { font-size: 15px; text-decoration: none; color: #ffffff; padding: 0px; margin: auto; display: flex; align-items: flex-start; justify-content: space-between; }
@@ -306,13 +335,12 @@ input[type=submit]:hover {
 
 
 
-/* ------- MEDIA QUERIES ------*/
+/* ---------------------------------------------------- */
+/* ------------- M E D I A  Q U E R I E S ------------- */
+/* ---------------------------------------------------- */
 
 
 
-
-
-@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {}
 
 
 @media screen and (max-width: 960px) and (min-width: 871px) {
@@ -330,69 +358,58 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 870px) and (min-width: 661px) {
-  .social-box { display: block; float: right; margin: 52px 12px 0px 0px; background-color: #ffffff; padding: 12px 0px 12px 5px; margin: 42px 0px 0px 0px; }
   .widthy {width:660px; margin:auto;}
   .banner-three {
     background-color: #ffffff;
-    background-image: url('../assets/illustration_bg.jpg');
+    /*background-image: url('../assets/illustration_bg.jpg');*/
     background-repeat: repeat;
     background-size: auto 100%;
     background-position: center top;
     color: #222222;
     margin-bottom: -19px;
     font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
+  .social-box { display: block; float: right; margin: 52px 12px 0px 0px; background-color: #ffffff; padding: 12px 0px 12px 5px; margin: 42px 0px 0px 0px; }
+
 }
 
 
 
 
 
-/* GENERAL MOBILE */ 
+/* ----------   G E N E R A L   M O B I L E   ---------- */
 
 
 
 
 @media screen and (max-width: 660px) {
 
-    
-  .slider{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width:100%;
-    height:400px;
-    background: url("../assets/slide1_bg.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    animation: none;
-  }
 
-  #slidetoleft { animation: none; }
-  
-  
-  
-  .sticky .sticky-inner { display: none; }
+  p { font-size: 17px; font-weight: normal; line-height: 1.5em; font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;} 
+
+
+    /* ---------- HEADER ---------- */
+
+    .sticky .sticky-inner { display: none; }
     .sticky-wrapper { display: none;}
     .mobile-logo { display: inline; }
     .container {align-items: center; display: block; margin-left: auto; margin-right: auto; padding: 15px; margin-top: 4px;}
-    p { font-size: 17px;
-      line-height: 1.5em;
-      font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-      font-weight: normal;
-      }
     
+    /* ---------- SLIDER ---------- */
 
-    .widthy {width:375px; margin:auto;}
-    .widthy-two {width:375px; margin:auto;}
-
+    .slider{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      width:100%;
+      height:400px;
+      background: url("../assets/slide1_bg.jpg") no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      animation: none;
+    }
     /*.slider {width:100%; background: url("../assets/slide1_bg.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}*/ 
-
-    .banner-one {color: #ffffff; text-align: center; width: 100%; background-color:#ffffff; margin: -304px 0px 0px 0px; }
-    .four-chapters {text-decoration: none; font-weight: bold; text-align: center; padding: 20px; margin: auto; display: flex; flex-direction: column; align-items: center; justify-content: space-between;}
-    .chapter-group {display: flex; flex-direction: row; margin: auto;}
-    .primary-titles {padding: 8px; font-size: 24px; font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; color: #606380; opacity: 0.5; }
-    .primary-titles:hover {padding: 8px; font-size: 24px; font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; color: #606380; opacity: 1; }
+    #slidetoleft { animation: none; }
     .bigLetters {margin-left: auto; margin-right: auto; display: flex; justify-content: center; text-align: center; padding-top: 305px;  }
     #pot {
       position: relative;
@@ -404,6 +421,17 @@ input[type=submit]:hover {
       0%   {left: -250%; top: 0px;}
       100% {left: 10%; top: 0px;}
     }
+
+    /* ---------- CONTENT ---------- */
+    
+    .widthy {width:375px; margin:auto;}
+    .widthy-two {width:375px; margin:auto;}
+    .banner-one {color: #ffffff; text-align: center; width: 100%; background-color:#ffffff; margin: -304px 0px 0px 0px; }
+    .four-chapters {text-decoration: none; font-weight: bold; text-align: center; padding: 20px; margin: auto; display: flex; flex-direction: column; align-items: center; justify-content: space-between;}
+    .chapter-group {display: flex; flex-direction: row; margin: auto;}
+    .primary-titles {padding: 8px; font-size: 24px; font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; color: #606380; opacity: 0.5; }
+    .primary-titles:hover {padding: 8px; font-size: 24px; font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; color: #606380; opacity: 1; }
+    
     .blocks {text-decoration: none; text-align: left; padding: 20px; margin: auto; display: flex; flex-direction: column; align-items: center; justify-content: space-between; font-family: source_sans_prosemibold,-apple-system,blinkmacsystemfont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,arial,helvetica,sans-serif;}
     .block { padding: 0px 10px; font-size: 19px; }
     .image { display: none; width: 310px; margin-top: -40px; }
@@ -439,17 +467,17 @@ input[type=submit]:hover {
       color: white;
     }
 
+    /* ---------- PORTFOLIO ---------- */
+    
     .portfolio-prez { display: none; }
 
-
-
+    /* ---------- CONTACT ---------- */
+    
     .contact-form {
       width: 335px;
       margin: -80px 20px 35px 20px; 
       font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     }
-
-
     .three-columns { text-decoration: none; color: #222222; font-weight: bold; padding: 0px; margin: 0px; display: flex; flex-direction: column; align-items: left; }
     .contact-prez { text-align: left; font-size: 16px; padding: 20px; }
     .contact-text { flex-basis: 50%; font-size: 14px; margin: -20px 10px 50px 10px; color: #222222; }
@@ -459,7 +487,6 @@ input[type=submit]:hover {
     .contact-social-icon { display: none; }
     .extra-contact-box { text-align: center; margin: 50px 0px; display: block; text-decoration: none; font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     }
-
 
     input[type=text], [type=email], [type=message], select {
       width: 100%;
@@ -497,8 +524,8 @@ input[type=submit]:hover {
       background-color: #3a5ba3;
     }
 
-
-
+    /* ---------- FOOTER ---------- */
+    
     .footer { color: #ffffff; width: 100%; background-color: #333333; margin: 0px; }
     .big-word { font-size: 22px; color: #666b9f; text-align: center; font-weight: lighter; letter-spacing: 0.9px; margin: 18px 0px 40px 0px; line-height: 2em; }
     .five-columns { text-decoration: none; color: #ffffff; font-weight: bold; padding: 0px; margin: 0px; display: flex; flex-direction: column; align-items: left; }
@@ -510,6 +537,7 @@ input[type=submit]:hover {
     .social-icon { width: 32px; padding: 12px 20px; margin: auto; display: flex; align-items: center; justify-content: space-between;}    .social-icon:hover { opacity: 1; }
     .contacting { padding: 20px 2px 0px 20px; font-size: 15px; opacity: 0.6;}
     .copyright { margin-top: 55px; padding: 0px; font-size: 12px; text-align: center; }
+
   }
 
 

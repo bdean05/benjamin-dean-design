@@ -12,7 +12,12 @@ export default function ContactUs() {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
-    // const [notif, setNotif] = useState("")
+    // attribut success = true alors la box doit apparaître en vert | success = false alors la box en rouge
+    // on stocke le texte du message à afficher dans la box
+    const [notif, setNotif] = useState({
+        success: true,
+        message: null
+    })
 
 
 
@@ -20,17 +25,18 @@ export default function ContactUs() {
         e.preventDefault();
         setLoading(true)
 
-        console.log(e.target)
+        // console.log(e.target)
 
         emailjs.sendForm('service_pz4j1s4', 'template_o5d10ee', e.target, 'user_YeWhLIZG6yUlR181HtQdM')
             .then((result) => {
                 if (result) {
-                    alert("Votre message est envoyé !");
-                    //setNotif("Your message was sent!")
-                    //<label style={{ display: "none" }}>{notif}</label>
+                    //alert("Votre message est envoyé !");
+                    setNotif({ success: true, message: "Votre message est envoyé !" })
                 }
             }, (error) => {
-                alert("Votre message n'est pas partie. Veuillez réessayer...");
+                //alert("Votre message n'est pas parti. Veuillez réessayer...");
+                setNotif({ success: false, message: "Votre message n'est pas parti. Veuilez réessayer..." })
+
             }).finally(() => {
                 // finally est l'étape finale d'une promesse en JS. Cette fonction est exécutée à la fin quoiqu'il arrive. Erreur ou pas erreur
                 // une fois que le mail est envoyé, on remet le loading à false
@@ -40,7 +46,9 @@ export default function ContactUs() {
                 setName("")
                 setEmail("")
                 setMessage("")
-
+                setTimeout(() => {
+                    setNotif({ message: null })
+                }, 5000)
             })
     }
 
@@ -83,6 +91,9 @@ export default function ContactUs() {
                     <div><label>Message</label></div>
                     <div><textarea name="message" value={message} onChange={e => setMessage(e.target.value)} required /></div>
                     <div><input type="submit" value="Envoyer" disabled={loading === true} /></div>
+                    {/* Si le message n'est pas null alors on affiche la div avec la valeur du message */}
+                    {/* le className est égal à: 1) notif-success si l'attribut success est true | 2) notif-error sinon . A se souvenir : ?=si, :=sinon (opérateur Terner(Ternary), en javascript)*/}
+                    {notif.message !== null && <div className={notif.success === true ? "notif-success" : "notif-error"}>{notif.message}</div>}
                 </form>
                 <div className="extra-contact-box">
                     <p>Mob : (+33) 6 14 31 73 56</p>

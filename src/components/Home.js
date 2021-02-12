@@ -19,15 +19,20 @@ const Home = (props) => {
 
             <a href="/#a-propos">
                 <section>
+
+                    {/* 1 - Le div slider (avec image en mode en background-image) */}
                     <div className="slider" id="slidetoleft"></div>
+                    {/* 2 - Le lien-ancre pour descendre vers le texte "À propos"*/}
                     <a name="a-propos"></a>
+                    {/* 3 - L'image (en avant) des grosses lettres/mots : WEB UX UI WEB DESIGN "*/}
                     <div className="bigLetters" id="pot">
                         <img src={webWords} alt="Logo" height="99" width="1420" style={{ marginTop: "-400px" }} />
                     </div>
+
                 </section>
             </a>
-            <section className="banner-one">
 
+            <section className="banner-one">
                 <div className="widthy">
                     <div className="four-chapters">
                         <div className="chapter-group">
@@ -91,7 +96,14 @@ const Home = (props) => {
                         </div>
                     </div>
                 </div>
-                <div style={{ textAlign: "center" }}><form action="/form"><button class="button">Me contacter</button></form></div>
+                <div className="blocks">
+                    <div className="block">
+                        <div style={{ textAlign: "center", margin: "0px 42px" }}><form action="/portfolio"><button class="button">Voir mon travail</button></form></div>
+                    </div>
+                    <div className="block">
+                        <div style={{ textAlign: "center", margin: "0px 55px" }}><form action="/form"><button class="button">Me contacter</button></form></div>
+                    </div>
+                </div>
                 <br></br>
                 <br></br>
                 <br></br>
