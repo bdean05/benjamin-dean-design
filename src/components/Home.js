@@ -21,7 +21,8 @@ const Home = (props) => {
                 <section>
 
                     {/* 1 - Le div slider (avec image en mode en background-image) */}
-                    <div className="slider" id="slidetoleft"></div>
+                    <div className="slider"></div>
+                    <div className="slider-mobile"></div>
                     {/* 2 - Le lien-ancre pour descendre vers le texte "À propos"*/}
                     <a name="a-propos"></a>
                     {/* 3 - L'image (en avant) des grosses lettres/mots : WEB UX UI WEB DESIGN "*/}
