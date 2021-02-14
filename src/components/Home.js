@@ -20,15 +20,19 @@ const Home = (props) => {
             <a href="/#a-propos">
                 <section>
 
-                    {/* 1 - Le div slider (avec image en mode en background-image) */}
+
                     <div className="slider"></div>
+                    <img src={webWords} alt="Logo" height="99" width="1420" className="bigLetters" />
+
+
                     <div className="slider-mobile"></div>
-                    {/* 2 - Le lien-ancre pour descendre vers le texte "À propos"*/}
-                    <a name="a-propos"></a>
-                    {/* 3 - L'image (en avant) des grosses lettres/mots : WEB UX UI WEB DESIGN "*/}
-                    <div className="bigLetters" id="pot">
+                    <div className="bigLetters-mobile">
                         <img src={webWords} alt="Logo" height="99" width="1420" style={{ marginTop: "-400px" }} />
                     </div>
+
+                    <a name="a-propos"></a>
+
+
 
                 </section>
             </a>

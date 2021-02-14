@@ -96,7 +96,14 @@ p { font-size: 16px;
 /* ---------- SLIDER ---------- */
 
 
-  .slider{
+.bigLetters {
+  display: block;
+  text-align: center; 
+  margin: -90px 0px 0px 10px;
+  position: absolute;
+}
+
+  .slider {
     margin-top: -298px;
     margin-bottom: 310px;
     width:200%;
@@ -108,45 +115,32 @@ p { font-size: 16px;
     background-size: cover;
     /*opacity: 0.95;*/
     position: relative;
-    animation: bigletters 20s 1000;
+    animation: slidetoleft 20s 1000;
     animation-direction: alternate-reverse;
     /*margin-left: 650px;*/
+  }
+
+  @keyframes slidetoleft {
+    0%   {left: -100%; top: 310px;}
+    100% {left: 0%; top: 310px;}
+    0%   {left: -100%; top: 310px;}
   }
 
   .slider-mobile {
     display:none;
   }
 
-  .bigLetters {
-    /*margin-left: 200px;*/
-    display: flex;
-    justify-content: center;
-    text-align: center; 
-  }
 
-  /* @keyframes bigletters {
-    0%   {left: -250%; top: 0px;}
-    100% {left: 10%; top: 0px;}
-    0%   {left: -250%; top: 0px;}
-  } */
 
-  @keyframes bigletters {
+  @keyframes slidetoleft {
     0%   {left: -100%; top: 310px;}
     100% {left: 0%; top: 310px;}
     0%   {left: -100%; top: 310px;}
   }
-  
-  /* #pot {
-    top: 310px;
-    position: relative;
-    animation: bigletters 20s 30;
-    animation-direction: alternate;
-  } */
 
-  #pot {
-    animation: none;
+  .bigLetters-mobile {
+    display: none;
   }
-
 
 
 /* ---------- CONTENT ---------- */
@@ -427,14 +421,24 @@ input[type=submit]:hover {
       animation: none;
     }
 
-    .bigLetters {margin-left: auto; margin-right: auto; display: flex; justify-content: center; text-align: center; padding-top: 305px;  }
-    #pot {
+    .bigLetters {
+      display: none;
+    }
+   
+    .bigLetters-mobile {
+      margin-left: auto; 
+      margin-right: auto; 
+      display: flex; 
+      justify-content: center; 
+      text-align: center; 
+      padding-top: 305px;  
       position: relative;
-      animation: bigletters 10s 1000;
+      animation: bigletterstoleft 10s 1000;
       animation-direction: alternate;
       margin-left: 650px;
     }
-    @keyframes bigletters {
+    
+    @keyframes bigletterstoleft {
       0%   {left: -250%; top: 0px;}
       100% {left: 10%; top: 0px;}
     }
