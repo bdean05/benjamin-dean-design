@@ -90,7 +90,7 @@ export default function ContactUs() {
                     <div><input type="email" name="user_email" value={email} onChange={e => setEmail(e.target.value)} required /></div>
                     <div><label>Message</label></div>
                     <div><textarea name="message" value={message} onChange={e => setMessage(e.target.value)} required /></div>
-                    <div><input type="submit" value="Envoyer" className={"button"} disabled={loading === true} /></div>
+                    <div><input type="submit" value="Envoyer" className={loading === true ? "button" : "button"} disabled={loading === true} /></div>
                     {/* Si le message n'est pas null alors on affiche la div avec la valeur du message */}
                     {/* le className est égal à: 1) notif-success si l'attribut success est true | 2) notif-error sinon . A se souvenir : ?=si, :=sinon (opérateur Terner(Ternary), en javascript)*/}
                     {notif.message !== null && <div className={notif.success === true ? "notif-success" : "notif-error"}>{notif.message}</div>}
