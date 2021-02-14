@@ -19,21 +19,14 @@ const Home = (props) => {
 
             <a href="/#a-propos">
                 <section>
-
-
                     <div className="slider"></div>
                     <img src={webWords} alt="Logo" height="99" width="1420" className="bigLetters" />
-
 
                     <div className="slider-mobile"></div>
                     <div className="bigLetters-mobile">
                         <img src={webWords} alt="Logo" height="99" width="1420" style={{ marginTop: "-400px" }} />
                     </div>
-
                     <a name="a-propos"></a>
-
-
-
                 </section>
             </a>
 

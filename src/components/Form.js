@@ -58,11 +58,6 @@ export default function ContactUs() {
             <div className="slider-contact"></div>
 
             <div className="three-columns">
-                {/*<div className="contact-prez" >
-                    <h2 style={{ marginBottom: "28px" }}>DEAN DESIGN</h2>
-                    <h3>Benjamin H. Dean</h3>
-                    <p>Web/UI/UX Visual Designer</p>
-                </div>*/}
                 <div className="contact-pres">
                     <h2 style={{ marginBottom: "28px" }}>DEAN DESIGN</h2>
                     <h3>Benjamin H. Dean</h3>
