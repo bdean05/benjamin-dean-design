@@ -250,7 +250,7 @@ p { font-size: 16px;
 }
 
 .three-columns { top: 0px; font-size: 15px; text-decoration: none; color: #222222; padding: 45px; margin: auto; display: flex; align-items: flex-start; justify-content: space-between; }
-.contact-prez { top: 0px; line-height: 5px; letter-spacing: 1px; text-align: left; font-size: 15px; padding: 0px 0px 0px 25px; opacity: 0.6; font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
+.contact-pres { top: 0px; line-height: 5px; letter-spacing: 1px; text-align: left; font-size: 15px; padding: 0px 0px 0px 25px; color: #222222; font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
 .contact-text { top: 0px; flex-basis: 55%; font-size: 14px; padding: 0px 15px; color: #222222; }
 .mycontact { padding: 0px 2px 0px 20px; font-size: 15px; opacity: 0.6; }
 .contact-link a { text-align: left; font-size: 15px; text-decoration: none; color: #222222; }
@@ -500,7 +500,7 @@ input[type=submit]:hover {
       font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     }
     .three-columns { text-decoration: none; color: #222222; font-weight: bold; padding: 0px; margin: 0px; display: flex; flex-direction: column; align-items: left; }
-    .contact-prez { text-align: left; font-size: 16px; padding: 20px; }
+    .contact-pres { text-align: left; font-size: 16px; padding: 25px; color: #222222; font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
     .contact-text { flex-basis: 50%; font-size: 14px; margin: -20px 10px 50px 10px; color: #222222; }
     .contact-link a { display: none; }
     .contact-link a:hover { display: none; }

@@ -58,11 +58,15 @@ export default function ContactUs() {
             <div className="slider-contact"></div>
 
             <div className="three-columns">
-                <div className="contact-prez" >
+                {/*<div className="contact-prez" >
                     <h2 style={{ marginBottom: "28px" }}>DEAN DESIGN</h2>
                     <h3>Benjamin H. Dean</h3>
                     <p>Web/UI/UX Visual Designer</p>
-                </div>
+                </div>*/}
+                <div className="contact-pres">
+                    <h2 style={{ marginBottom: "28px" }}>DEAN DESIGN</h2>
+                    <h3>Benjamin H. Dean</h3>
+                    <p>Web/UI/UX Visual Designer</p>                </div>
                 <div className="contact-text">
                     <p style={{ lineHeight: "28px", marginTop: "5px" }}>Vous souhaitez concevoir, créer, refondre, développer et optimiser les parcours utilisateurs, l’ergonomie, l’expérience et les interfaces pour votre client ? Accédez à mes services créatifs et techniques. Contactez-moi par message ou mobile.</p>
                 </div>
