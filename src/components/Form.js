@@ -72,7 +72,7 @@ export default function ContactUs() {
                         <a href="https://twitter.com/benjamin_h_dean" target="_blank" rel="noreferrer"><img src={twitter} alt="Twitter" height="" width="" className="contact-social-icon" /></a>
                     </div>
 
-                    <div >
+                    <div style={{ marginTop: "-10px" }}>
                         <p className="contact-link"><a href="mailto:benjamin_h_dean@yahoo.com" style={{ padding: "0px 0px 0px 20px" }}>E-mail : cliquez ici (inbox)</a></p>
                         <p className="mycontact">Mob : (+33) 6 14 31 73 56</p>
                         <p className="mycontact">Paris, France</p>

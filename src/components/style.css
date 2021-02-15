@@ -244,15 +244,15 @@ p { font-size: 16px;
 }
 
 .contact-form { 
-  margin: -80px 35px 100px 70px; 
+  margin: -55px 35px 100px 70px; 
   font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   width: 750px;
 }
 
 .three-columns { top: 0px; font-size: 15px; text-decoration: none; color: #222222; padding: 45px; margin: auto; display: flex; align-items: flex-start; justify-content: space-between; }
-.contact-pres { top: 0px; line-height: 5px; letter-spacing: 1px; text-align: left; font-size: 15px; padding: 0px 0px 0px 25px; color: #5f5f5f; font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
+.contact-pres { top: 0px; line-height: 5px; letter-spacing: 0.6px; text-align: left; font-size: 15px; padding: 0px 0px 0px 25px; color: #5f5f5f; font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
 .contact-text { top: 0px; flex-basis: 55%; font-size: 14px; padding: 0px 15px; color: #222222; }
-.mycontact { padding: 0px 2px 0px 20px; font-size: 15px; opacity: 0.6; }
+.mycontact { margin-top: -10px; padding: 0px 2px 0px 20px; font-size: 15px; opacity: 0.6; }
 .contact-link a { text-align: left; font-size: 15px; text-decoration: none; color: #222222; }
 .contact-link a:hover { text-align: left; text-decoration: none; color: #222222;}
 .contact-social-icon { opacity: 0.6; width: 32px; padding: 12px 18px; margin: auto; display: flex; align-items: left; justify-content: space-between;}    
