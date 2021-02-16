@@ -533,6 +533,8 @@ input[type=submit]:hover {
     
     input[type=submit], select {
       width: 100%;
+      border-radius: 0;
+      -webkit-appearance: none; /* on désactive le styling autoamtique de safari mobile */
       background-color: #7d91b3;
       color: white;
       margin: 15px 0px;
