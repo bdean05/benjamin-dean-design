@@ -26,7 +26,7 @@ const Footer = (props) => {
                         <p className="footer-link"><a href="/">Accueil</a></p>
                         <p className="footer-link"><a href="/#a-propos">À propos</a></p>
                         <p className="footer-link"><a href="/portfolio">Portfolio</a></p>
-                        <p className="footer-link"><a href="/dev-react">React</a></p>
+                        <p className="footer-link"><a href="/javareact">React dev</a></p>
                         <p className="footer-link"><a href="/form">Contact</a></p>
                     </div>
                     <div className="footer-bio">

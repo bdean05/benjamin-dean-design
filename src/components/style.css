@@ -315,6 +315,18 @@ input[type=submit]:hover {
 }
 
 
+.coming-soon {
+  display: block; 
+  margin: 100px 100px 200px 100px;
+  text-align: center;
+  font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  padding: 50px;
+  line-height: 26px;
+ 
+}
+
 
 /* ---------- FOOTER ---------- */
 
