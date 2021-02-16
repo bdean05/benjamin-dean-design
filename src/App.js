@@ -20,6 +20,7 @@ import Exercice from './components/Exercice';
 import Footer from './components/Footer';
 import Timer from './components/Timer';
 import Portfolio from './components/Portfolio';
+import Calculator from './components/Calculator';
 
 
 const App = () => {
@@ -53,6 +54,7 @@ const App = () => {
             renders the first one that matches the current URL. */}
           <Switch>
 
+            <Route path="/calculator" component={Calculator} />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/exercice" component={Exercice} />
             <Route path="/timer" component={Timer} />
