@@ -21,12 +21,12 @@ const Home = (props) => {
                 <section>
                     {/* Slider et lettres pour Desktop */}
                     <div className="slider"></div>
-                    <img src={webWords} alt="Logo" height="99" width="1420" className="bigLetters" />
+                    <img src={webWords} alt="WEB UX UI WEB DESIGN, Benjamin Dean Design" height="99" width="1420" className="bigLetters" />
 
                     {/* Slider et lettres pour Mobile */}
                     <div className="slider-mobile"></div>
                     <div className="bigLetters-mobile">
-                        <img src={webWords} alt="Logo" height="99" width="1420" style={{ marginTop: "-400px" }} />
+                        <img src={webWords} alt="WEB UX UI WEB DESIGN, Benjamin Dean Design" height="99" width="1420" style={{ marginTop: "-400px" }} />
                     </div>
 
                     {/* Link "A propos" */}
@@ -83,16 +83,16 @@ const Home = (props) => {
                         <div className="icons">
                             <div style={{ textAlign: "center", padding: "0px 35px 35px 0px" }}>
                                 <a href={cvBhd} download="Benj.h.Dean_resume_2021_designer.pdf">
-                                    <img src={arrow1} alt="Logo" height="28px" width="" style={{ margin: "-16px 0px 20px -75px" }} />
-                                    <div><img src={pdffile} alt="Logo" height="" width="" className="handicon" /></div>
-                                    <img src={textcv} alt="Logo" height="24px" width="" style={{ marginTop: "25px" }} />
+                                    <img src={arrow1} alt="Arrow to CV of Benjamin H. Dean" height="28px" width="" style={{ margin: "-16px 0px 20px -75px" }} />
+                                    <div><img src={pdffile} alt="pdf CV of Benjamin Dean" height="" width="" className="handicon" /></div>
+                                    <img src={textcv} alt="CV" height="24px" width="" style={{ marginTop: "25px" }} />
                                 </a>
                             </div>
                             <div style={{ textAlign: "center", padding: "0px 0px 35px 35px" }}>
                                 <a href={portfolioBhd} download="Benj.h.Dean_portfolio-2021.pdf">
-                                    <img src={arrow2} alt="Logo" height="32px" width="" style={{ margin: "-16px 0px 20px -75px" }} />
-                                    <div><img src={pdfsuitcase} alt="Logo" height="" width="" className="handicon" /></div>
-                                    <img src={textportfolio} alt="Logo" height="24px" width="" style={{ marginTop: "25px" }} />
+                                    <img src={arrow2} alt="Arrow to portfolio of Benjamin H. Dean" height="32px" width="" style={{ margin: "-16px 0px 20px -75px" }} />
+                                    <div><img src={pdfsuitcase} alt="pdf portfolio of Benjamin Dean" height="" width="" className="handicon" /></div>
+                                    <img src={textportfolio} alt="Portfolio" height="24px" width="" style={{ marginTop: "25px" }} />
                                 </a>
                             </div>
                         </div>
