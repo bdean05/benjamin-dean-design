@@ -98,17 +98,14 @@ const Home = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="blocks">
+                <div className="blocks" style={{ marginBottom: "25px" }}>
                     <div className="block">
-                        <div style={{ textAlign: "center", margin: "0px 42px" }}><form action="/portfolio"><button class="button">Voir mon travail</button></form></div>
+                        <div style={{ textAlign: "center", margin: "0px 42px" }}><form action="/portfolio"><button className="button">Voir mon travail</button></form></div>
                     </div>
                     <div className="block">
-                        <div style={{ textAlign: "center", margin: "0px 55px" }}><form action="/form"><button class="button">Me contacter</button></form></div>
+                        <div style={{ textAlign: "center", margin: "0px 55px" }}><form action="/form"><button className="button">Me contacter</button></form></div>
                     </div>
                 </div>
-                <br></br>
-                <br></br>
-                <br></br>
             </section>
         </div >
     )
