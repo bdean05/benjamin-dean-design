@@ -93,16 +93,16 @@ const Portfolio = (props) => {
                         <div className="icons">
                             <div style={{ textAlign: "center", padding: "0px 35px 35px 0px" }}>
                                 <a href={cvBhd} download="Benj.h.Dean_resume_2021_designer.pdf">
-                                    <img src={arrow1} alt="Logo" height="28px" width="" style={{ margin: "-16px 0px 20px -75px" }} />
-                                    <div><img src={pdffile} alt="Logo" height="" width="" className="handicon" /></div>
-                                    <img src={textcv} alt="Logo" height="24px" width="" style={{ marginTop: "25px" }} />
+                                    <img src={arrow1} alt="Arrow" height="28px" width="" style={{ margin: "-16px 0px 20px -75px" }} />
+                                    <div><img src={pdffile} alt="CV Dean PDF" height="" width="" className="handicon" /></div>
+                                    <img src={textcv} alt="CV Dean" height="24px" width="" style={{ marginTop: "25px" }} />
                                 </a>
                             </div>
                             <div style={{ textAlign: "center", padding: "0px 0px 35px 35px" }}>
                                 <a href={portfolioBhd} download="Benj.h.Dean_portfolio-2021.pdf">
-                                    <img src={arrow2} alt="Logo" height="32px" width="" style={{ margin: "-16px 0px 20px -75px" }} />
-                                    <div><img src={pdfsuitcase} alt="Logo" height="" width="" className="handicon" /></div>
-                                    <img src={textportfolio} alt="Logo" height="24px" width="" style={{ marginTop: "25px" }} />
+                                    <img src={arrow2} alt="Arrow" height="32px" width="" style={{ margin: "-16px 0px 20px -75px" }} />
+                                    <div><img src={pdfsuitcase} alt="Portfolio Dean PDF" height="" width="" className="handicon" /></div>
+                                    <img src={textportfolio} alt="Portfolio Dean" height="24px" width="" style={{ marginTop: "25px" }} />
                                 </a>
                             </div>
                         </div>
