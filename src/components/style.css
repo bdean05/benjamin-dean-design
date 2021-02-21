@@ -512,7 +512,7 @@ input[type=submit]:hover {
     
     .contact-form {
       width: 335px;
-      margin: -80px 20px 35px 20px; 
+      margin: -40px 20px 35px 20px; 
       font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     }
     .three-columns { text-decoration: none; color: #222222; font-weight: bold; padding: 0px; margin: 0px; display: flex; flex-direction: column; align-items: left; }
