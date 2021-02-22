@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react'
+import ProgressBar from "@ramonak/react-progress-bar";
+
 let myInterval; // variable globale dans tout le fichier
 
 const Timer = (props) => {
@@ -28,8 +30,11 @@ const Timer = (props) => {
         setCounterInProgress(false)
     }
 
+    let percent = parseInt(((count / myTimer) * 100))
     return (
+
         <div style={{ padding: "100px" }}>
+            <ProgressBar completed={percent} />
             <h1>{count}</h1>
             <input value={myTimer} onChange={e => setMyTimer(e.target.value)} placeholder="Seconds" />
             <button onClick={() => launchTimer()} disabled={counterInProgress}>Launch</button>

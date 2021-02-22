@@ -50,15 +50,19 @@ const Calculator = (props) => {
 
     // fonction pour vider le display
     const emptyDisplay = () => {
-        setScreenValue("")
-        setScreenValue2("")
+        setScreenValue(0)
+        setScreenValue2(0)
         setOperationValue(null)
     }
 
 
     return (
         <div style={{ padding: "100px" }}>
-            <div style={{ width: "300px", height: "90px", borderWidth: 3, borderColor: "black", backgroundColor: "gray", fontSize: 30 }} >{operationValue == null ? screenValue : screenValue2}</div>
+            <div style={{ width: "300px", height: "90px", borderWidth: 3, borderColor: "black", backgroundColor: "gray", fontSize: 30 }} >
+                {(operationValue == null || screenValue2 === "" || screenValue2 == 0) ? screenValue : screenValue2}
+
+            </div>
+            {/* Si operationValue est null, screenValue s'affiche, sinon c'est screeValue2 */}
             <div style={{ display: "flex" }}>
                 <button style={{ width: "40px", height: "40px", margin: 10 }} onClick={() => writeOnScreen(1)}>1</button>
                 <button style={{ width: "40px", height: "40px", margin: 10 }} onClick={() => writeOnScreen(2)}>2</button>
