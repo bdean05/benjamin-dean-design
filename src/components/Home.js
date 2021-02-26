@@ -53,8 +53,8 @@ const Home = (props) => {
                             </a>
                         </div>
                         <div>
-                            <a href="/portfolio#illustration" style={{ textDecoration: "none" }} >
-                                <div className="primary-titles">ILLUSTRATION</div>
+                            <a href="/javareact" style={{ textDecoration: "none" }} >
+                                <div className="primary-titles">REACT DEVELOPMENT</div>
                             </a>
                         </div>
                     </div>
