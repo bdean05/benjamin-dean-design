@@ -17,22 +17,26 @@ const Home = (props) => {
     return (
         <div>
 
-            <a href="/#a-propos">
-                <section>
-                    {/* Slider et lettres pour Desktop */}
-                    <div className="slider"></div>
-                    <img src={webWords} alt="WEB UX UI WEB DESIGN, Benjamin Dean Design" height="99" width="1420" className="bigLetters" />
+            {/* <a href="/#a-propos"> */}
+            <section>
+                {/* Slider et lettres pour Desktop */}
+                <div className="slider"></div>
+                <img src={webWords} alt="WEB UX UI WEB DESIGN, Benjamin Dean Design" height="99" width="1420" className="bigLetters" />
 
-                    {/* Slider et lettres pour Mobile */}
-                    <div className="slider-mobile"></div>
-                    <div className="bigLetters-mobile">
-                        <img src={webWords} alt="WEB UX UI WEB DESIGN, Benjamin Dean Design" height="99" width="1420" style={{ marginTop: "-400px" }} />
+                {/* Slider et lettres pour Mobile */}
+                <div className="slider-mobile">
+                    <div style={{ paddingTop: "52px", textAlign: "center", margin: "0px 58px" }}>
+                        <div style={{ backgroundColor: "white", textAlign: "center", padding: "18px 12px 12px 12px", lineHeight: "26px", fontFamily: "roboto", color: "#303030", fontSize: "16px", opacity: "0.9" }}><span style={{ lineHeight: "42px", fontSize: "18px", letterSpacing: "0.5px", color: "#303030" }}>WELCOME TO MY SITE.</span><br></br>Visual Design, UX/UI, Design Thinking, Web solving, User-Centric app & web Interfaces.<br></br><a href="/portfolio" style={{ lineHeight: "46px", fontSize: "17px", textDecoration: "none", color: "#303030" }} >Check my portfolio!</a><br></br></div>
                     </div>
+                </div>
+                <div className="bigLetters-mobile">
+                    <img src={webWords} alt="WEB UX UI WEB DESIGN, Benjamin Dean Design" height="99" width="1420" style={{ marginTop: "-400px" }} />
+                </div>
 
-                    {/* Link "A propos" */}
-                    <a name="a-propos"></a>
-                </section>
-            </a>
+                {/* Link "A propos" */}
+                <a name="a-propos"></a>
+            </section>
+            {/* </a> */}
 
             <section className="banner-one">
                 <div className="widthy">
