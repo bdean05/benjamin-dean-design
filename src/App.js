@@ -22,6 +22,8 @@ import Timer from './components/Timer';
 import Portfolio from './components/Portfolio';
 import Calculator from './components/Calculator';
 import Javareact from './components/Javareact';
+import MaxMin from './components/MaxMin';
+import Circle from './components/Circle';
 
 
 const App = () => {
@@ -55,6 +57,8 @@ const App = () => {
             renders the first one that matches the current URL. */}
           <Switch>
 
+            <Route path="/circle" component={Circle} />
+            <Route path="/maxmin" component={MaxMin} />
             <Route path="/javareact" component={Javareact} />
             <Route path="/calculator" component={Calculator} />
             <Route path="/portfolio" component={Portfolio} />
