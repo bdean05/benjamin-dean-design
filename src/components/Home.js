@@ -21,7 +21,7 @@ const Home = (props) => {
             <section>
                 {/* Slider et lettres pour Desktop */}
                 <div className="slider"></div>
-                <img src={webWords} alt="WEB UX UI WEB DESIGN, Benjamin Dean Design" height="99" width="1420" className="bigLetters" />
+                <img src={webWords} alt="WEB UX UI WEB DESIGN, Benjamin Dean Design" height="99" width="1670" className="bigLetters" />
 
                 {/* Slider et lettres pour Mobile */}
                 <div className="slider-mobile">
