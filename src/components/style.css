@@ -429,7 +429,7 @@ input[type=submit]:hover {
       margin-bottom: -0px;
       width:100%;
       height:400px;
-      background: url("../assets/slide1_bg.jpg") no-repeat center center;
+      background: url("../assets/slide1mob_bg.jpg") no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -449,7 +449,7 @@ input[type=submit]:hover {
       text-align: center; 
       padding-top: 305px;  
       position: relative;
-      animation: bigletterstoleft 20s 1000;
+      animation: bigletterstoleft 18s 1000;
       animation-direction: alternate;
       margin-left: 650px;
     }
