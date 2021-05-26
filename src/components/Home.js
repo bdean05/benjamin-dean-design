@@ -21,7 +21,7 @@ const Home = (props) => {
             <section>
                 {/* Slider et lettres pour Desktop */}
                 <div className="slider"></div>
-                <img src={webWords} alt="WEB UX UI WEB DESIGN, Benjamin Dean Design" height="99" width="1670" className="bigLetters" />
+                <img src={webWords} alt="WEB UX UI WEB DESIGN APP, Benjamin Dean Design" height="99" width="1670" className="bigLetters" />
 
                 {/* Slider et lettres pour Mobile */}
                 <div className="slider-mobile">
@@ -30,7 +30,7 @@ const Home = (props) => {
                     </div>
                 </div>
                 <div className="bigLetters-mobile">
-                    <img src={webWords} alt="WEB UX UI WEB DESIGN, Benjamin Dean Design" height="99" width="1420" style={{ marginTop: "-400px" }} />
+                    <img src={webWords} alt="WEB UX UI WEB DESIGN APP, Benjamin Dean Design" height="99" width="1420" style={{ marginTop: "-400px" }} />
                 </div>
 
                 {/* Link "A propos" */}
@@ -87,16 +87,16 @@ const Home = (props) => {
                         <div className="icons">
                             <div style={{ textAlign: "center", padding: "0px 35px 35px 0px" }}>
                                 <a href={cvBhd} download="Benj.h.Dean_resume_2021_designer.pdf">
-                                    <img src={arrow1} alt="Arrow to CV of Benjamin H. Dean" height="28px" width="" style={{ margin: "-16px 0px 20px -75px" }} />
-                                    <div><img src={pdffile} alt="pdf CV of Benjamin Dean" height="" width="" className="handicon" /></div>
-                                    <img src={textcv} alt="CV" height="24px" width="" style={{ marginTop: "25px" }} />
+                                    <img src={arrow1} alt="CV Benjamin Dean UX UI Designer" height="28px" width="" style={{ margin: "-16px 0px 20px -75px" }} />
+                                    <div><img src={pdffile} alt="pdf CV Benjamin Dean UX UI Designer" height="" width="" className="handicon" /></div>
+                                    <img src={textcv} alt="CV Benjamin Dean UX UI Designer" height="24px" width="" style={{ marginTop: "25px" }} />
                                 </a>
                             </div>
                             <div style={{ textAlign: "center", padding: "0px 0px 35px 35px" }}>
                                 <a href={portfolioBhd} download="Benj.h.Dean_portfolio-2021.pdf">
-                                    <img src={arrow2} alt="Arrow to portfolio of Benjamin H. Dean" height="32px" width="" style={{ margin: "-16px 0px 20px -75px" }} />
-                                    <div><img src={pdfsuitcase} alt="pdf portfolio of Benjamin Dean" height="" width="" className="handicon" /></div>
-                                    <img src={textportfolio} alt="Portfolio" height="24px" width="" style={{ marginTop: "25px" }} />
+                                    <img src={arrow2} alt="portfolio Benjamin Dean UX UI Designer" height="32px" width="" style={{ margin: "-16px 0px 20px -75px" }} />
+                                    <div><img src={pdfsuitcase} alt="pdf portfolio Benjamin Dean UX UI Designer" height="" width="" className="handicon" /></div>
+                                    <img src={textportfolio} alt="portfolio Benjamin Dean UX UI Designer" height="24px" width="" style={{ marginTop: "25px" }} />
                                 </a>
                             </div>
                         </div>
