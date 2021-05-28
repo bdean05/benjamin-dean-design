@@ -117,7 +117,7 @@ p { font-size: 16px;
     background-size: cover;
     /*opacity: 0.95;*/
     position: relative;
-    animation: slidetoleft 20s 1000;
+    animation: slidetoleft 20s 10000;
     animation-direction: alternate-reverse;
     /*margin-left: 650px;*/
   }

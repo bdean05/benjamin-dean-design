@@ -30,7 +30,7 @@ const Home = (props) => {
                     </div>
                 </div>
                 <div className="bigLetters-mobile">
-                    <img src={webWords} alt="WEB UX UI WEB DESIGN APP, Benjamin Dean Design" height="99" width="1420" style={{ marginTop: "-400px" }} />
+                    <a href="/portfolio"><img src={webWords} alt="WEB UX UI WEB DESIGN APP, Benjamin Dean Design" height="99" width="1420" style={{ marginTop: "-400px" }} /></a>
                 </div>
 
                 {/* Link "A propos" */}
