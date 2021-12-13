@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import './style.css'
 
 const Calculator = (props) => {
 
@@ -6,16 +7,6 @@ const Calculator = (props) => {
     const [screenValue2, setScreenValue2] = useState("")  // State qui affiche autre élément
     const [operationValue, setOperationValue] = useState(null) // State qui effectue l'opération
 
-    const [test, setTest] = useState(0)
-
-    var test2 = 0
-
-    useEffect(() => {
-        setTimeout(() => {
-            setTest(10)
-            test2 = 10
-        }, 5000);
-    }, [])
 
 
     const writeOnScreen = (number) => {
@@ -71,15 +62,15 @@ const Calculator = (props) => {
 
     return (
         <div style={{ padding: "100px" }}>
-            <h1>test {test}</h1>
-            <h1>test2 {test2}</h1>
+            {/* <h1>test {test}</h1>
+            <h1>test2 {test2}</h1> */}
             <div style={{ width: "300px", height: "90px", borderWidth: 3, borderColor: "black", backgroundColor: "gray", fontSize: 30 }} >
                 {(operationValue == null || screenValue2 === "" || screenValue2 == 0) ? screenValue : screenValue2}
 
             </div>
             {/* Si operationValue est null, screenValue s'affiche, sinon c'est screeValue2 */}
             <div style={{ display: "flex" }}>
-                <button style={{ width: "40px", height: "40px", margin: 10 }} onClick={() => writeOnScreen(1)}>1</button>
+                <button className="calculator-button" onClick={() => writeOnScreen(1)}>1</button>
                 <button style={{ width: "40px", height: "40px", margin: 10 }} onClick={() => writeOnScreen(2)}>2</button>
                 <button style={{ width: "40px", height: "40px", margin: 10 }} onClick={() => writeOnScreen(3)}>3</button>
                 <button style={{ width: "40px", height: "40px", margin: 10 }} onClick={() => operationOnScreen("division")}>:</button>

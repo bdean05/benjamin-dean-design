@@ -14,7 +14,12 @@ p { font-size: 16px;
 
 
 /* ---------- HEADER ---------- */
-
+.calculator-button {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  background-color: #004fb6;
+}
 
 .header{
   width: 100%;
@@ -317,6 +322,9 @@ input[type=submit]:hover {
 /* ---------- DEV REACT ---------- */
 
 
+
+.react-title { display: block; line-height: 40px; text-align: center; font-size: 28px; padding: 60px 0px 25px 0px; opacity: 0.2; font-weight: lighter; letter-spacing: 6px; font-family: "roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
 .coming-soon {
   display: block; 
   margin: 100px 100px 200px 100px;
@@ -507,6 +515,10 @@ input[type=submit]:hover {
     /* ---------- PORTFOLIO ---------- */
     
     .portfolio-prez { display: none; }
+
+    /* ---------- DEV REACT ---------- */
+    
+    .react-title { display: none; }
 
     /* ---------- CONTACT ---------- */
     

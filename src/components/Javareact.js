@@ -13,8 +13,10 @@ const Javareact = (props) => {
     return (
         <div>
             <section>
-                <div style={{ display: "block", lineHeight: "40px" }} className="portfolio-title">REACT DEVELOPMENT</div>
+                <div className="react-title">REACT DEVELOPMENT</div>
                 <div className="coming-soon">Links coming soon!</div>
+
+                <button onClick={() => window.location = "/calculator"}>Calculatrice</button>
                 {/*<div style={{ display: "block", margin: "100px 0px", position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" }}>Coming soon!</div>*/}
                 {/*<div className="widthy">
                     <div className="four-chapters">
