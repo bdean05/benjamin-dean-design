@@ -31,11 +31,11 @@ export default function ContactUs() {
             .then((result) => {
                 if (result) {
                     //alert("Votre message est envoyé !");
-                    setNotif({ success: true, message: "Votre message est envoyé !" })
+                    setNotif({ success: true, message: "Your meassage is sent!" })
                 }
             }, (error) => {
                 //alert("Votre message n'est pas parti. Veuillez réessayer...");
-                setNotif({ success: false, message: "Votre message n'est pas parti. Veuilez réessayer..." })
+                setNotif({ success: false, message: "Your message was not sent. Please try again..." })
 
             }).finally(() => {
                 // finally est l'étape finale d'une promesse en JS. Cette fonction est exécutée à la fin quoiqu'il arrive. Erreur ou pas erreur
