@@ -14,9 +14,29 @@ const Javareact = (props) => {
         <div>
             <section>
                 <div className="react-title">REACT DEVELOPMENT</div>
-                <div className="coming-soon">Links coming soon!</div>
-                <button onClick={() => window.location = "/calculator"}>Calculatrice</button>
-                <button onClick={() => window.location = "/MaxMin"}>Maximum Minimum</button>
+                {/*<div className="coming-soon">Links coming soon!</div> */}
+
+
+                <div class="flex-react-container">
+                    <a href='Calculator' style={{ textDecoration: 'none', flex: '25%' }}><div class="flex-react-item">CALCULATOR</div></a>
+                    <a href='https://bdean05.github.io/Iron-Curtain-Project/index.html' target='_blank' style={{ textDecoration: 'none', flex: '25%' }}><div class="flex-react-item">GUESS GAME</div></a>
+                    <a href='Timer' style={{ textDecoration: 'none', flex: '25%' }}><div class="flex-react-item">TIMER</div></a>
+                    <a href='MaxMin' style={{ textDecoration: 'none', flex: '25%' }}><div class="flex-react-item">MAXIMUM/MINIMUM</div></a>
+                </div>
+
+                <div class="flex-react-container">
+                    <a href='Exercice' style={{ textDecoration: 'none', flex: '25%' }}><div class="flex-react-item">EXERCICE</div></a>
+                    <a href='Photos' style={{ textDecoration: 'none', flex: '25%' }}><div class="flex-react-item">PHOTOS</div></a>
+                    <a href='Gallery' style={{ textDecoration: 'none', flex: '25%' }}><div class="flex-react-item">GALLERY</div></a>
+                    <a href='Songworld' style={{ textDecoration: 'none', flex: '25%' }}><div class="flex-react-item">SONGWORLD</div></a>
+                </div>
+                <div class="flex-react-container">
+                    <a href='Home' style={{ textDecoration: 'none', flex: '25%' }}><div class="flex-react-item">THIS WEBSITE</div></a>
+                </div>
+
+
+                {/*<button onClick={() => window.location = "/calculator"}>Calculatrice</button>
+                <button onClick={() => window.location = "/MaxMin"}>Maximum Minimum</button>*/}
                 {/*<div style={{ display: "block", margin: "100px 0px", position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" }}>Coming soon!</div>*/}
                 {/*<div className="widthy">
                     <div className="four-chapters">
