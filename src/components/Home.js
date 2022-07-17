@@ -68,11 +68,11 @@ const Home = (props) => {
                 <div className="blocks">
                     <div className="block">
                         <h1 className="subtitle"><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Hello World!</em></h1>
-                        <p>Benjamin H.Dean, Web/UI/UX Visual Designer. Connaissances et compétences en Design et Développement, sur des apps, des sites E-commerce & vitrines, design d'interfaces utilisateur pour apps et sites, projets en mode «mobile-first».</p>
-                        <h1 className="subtitle"><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Expérience</em></h1>
-                        <p>12 ans d'expérience dans la conception visuelle et développement de sites créatifs, d'interfaces utilisateur et d'applications. Expérience en équipes internationales de Web Marketing numérique, équipes de R&D et équipes UX Design.</p>
-                        <h1 className="subtitle"><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Vers le futur !</em></h1>
-                        <p>Veille technologique, évolution constante en connaissances et en compétences de Développement Web + UX, savoir-faire en communication avec Développeurs Back-End et Marketing. Alliance entre la sensibilité artistique et l’innovation technologique.</p>
+                        <p>Benjamin H. Dean, UI/UX & Web/Cloud Visual Designer. Skills and knowledge and in design and development on apps, design sytems, e-commerce sites & showcases. Design of user interfaces for apps and sites, mobile-first projects.</p>
+                        <h1 className="subtitle"><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Experience</em></h1>
+                        <p>Experienced software design professional. 15-years’ practice and expertise in UI/UX visual design and web development of creative sites, user interfaces and applications. Experience in international Digital Web Marketing teams, R&D teams and UX Design teams.</p>
+                        <h1 className="subtitle"><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Aiming at the future!</em></h1>
+                        <p>Technological watch, constant evolution in knowledge and skills of Web + UX Development, know-how in communication with Back-End Developers and Marketing. Alliance between artistic sensibility and technological innovation.</p>
                     </div>
                     <div><img src={photoBio} alt="Logo" height="" width="" className="image" /></div>
                 </div>
@@ -81,7 +81,7 @@ const Home = (props) => {
                 <div className="blocks">
                     <div className="block">
                         <h1 className="subtitle"><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Mon profil</em></h1>
-                        <p style={{ lineHeight: "2.1", color: "#000000" }}>Vous souhaitez créer, concevoir, refondre, développer et optimiser les parcours utilisateurs, l’ergonomie, l’expérience et les interfaces pour votre client ? Accédez à mes services créatifs et techniques. N'hésitez pas à télécharger mon CV et mon portfolio.</p>
+                        <p style={{ lineHeight: "2.1", color: "#000000" }}>Do you want to create, design, redesign, develop and optimize user journeys, ergonomics, experience and interfaces for your client? Access my creative and technical services. Feel free to download my resume and my portfolio.</p>
                     </div>
                     <div className="block">
                         <div className="icons">
@@ -104,10 +104,10 @@ const Home = (props) => {
                 </div>
                 <div className="blocks" style={{ marginBottom: "25px" }}>
                     <div className="block">
-                        <div style={{ textAlign: "center", margin: "0px 42px" }}><form action="/portfolio"><button className="button">Voir mon travail</button></form></div>
+                        <div style={{ textAlign: "center", margin: "0px 42px" }}><form action="/portfolio"><button className="button">Check my work</button></form></div>
                     </div>
                     <div className="block">
-                        <div style={{ textAlign: "center", margin: "0px 55px" }}><form action="/form"><button className="button">Me contacter</button></form></div>
+                        <div style={{ textAlign: "center", margin: "0px 55px" }}><form action="/form"><button className="button">Contact me</button></form></div>
                     </div>
                 </div>
             </section>
