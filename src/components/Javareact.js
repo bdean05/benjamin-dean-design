@@ -48,8 +48,8 @@ const Javareact = (props) => {
             <section className="banner-three" style={{ borderTop: "1px solid #f5f5f7", marginTop: "50px" }}>
                 <div className="blocks">
                     <div className="block">
-                        <h1 className="subtitle"><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Mon profil</em></h1>
-                        <p style={{ lineHeight: "2.2", color: "#000000" }}>Vous souhaitez concevoir, créer, refondre, développer et optimiser les parcours utilisateurs, l’ergonomie, l’expérience et les interfaces pour votre client ? Accédez à mes services créatifs et techniques. N'hésitez pas à télécharger mon CV et mon portfolio.</p>
+                        <h1 className="subtitle"><em>➝&nbsp;&nbsp;&nbsp;&nbsp;My profile</em></h1>
+                        <p style={{ lineHeight: "2.2", color: "#000000" }}>Do you want to design, create, redesign, develop and optimize user journeys, ergonomics, experience and interfaces for your client? Access my creative and technical services. Contact me by message or by mobile.</p>
                     </div>
                     <div className="block">
                         <div className="icons">
@@ -70,7 +70,7 @@ const Javareact = (props) => {
                         </div>
                     </div>
                 </div>
-                <div style={{ textAlign: "center", marginTop: "0px" }}><form action="/form"><button class="button">Me contacter</button></form></div>
+                <div style={{ textAlign: "center", marginTop: "0px" }}><form action="/form"><button class="button">Contact me</button></form></div>
                 <br></br>
                 <br></br>
                 <br></br>

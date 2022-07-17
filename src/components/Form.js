@@ -63,7 +63,7 @@ export default function ContactUs() {
                     <h3>Benjamin H. Dean</h3>
                     <p>Web/UI/UX Visual Designer</p>                </div>
                 <div className="contact-text">
-                    <p style={{ lineHeight: "28px", marginTop: "5px" }}>Vous souhaitez concevoir, créer, refondre, développer et optimiser les parcours utilisateurs, l’ergonomie, l’expérience et les interfaces pour votre client ? Accédez à mes services créatifs et techniques. Contactez-moi par message ou mobile.</p>
+                    <p style={{ lineHeight: "28px", marginTop: "5px" }}>Do you want to design, create, redesign, develop and optimize user journeys, ergonomics, experience and interfaces for your client? Access my creative and technical services. Contact me by message or by mobile.</p>
                 </div>
                 <div>
                     <div className="two-icons">
@@ -73,8 +73,8 @@ export default function ContactUs() {
                     </div>
 
                     <div style={{ marginTop: "-10px" }}>
-                        <p className="contact-link"><a href="mailto:benjamin_h_dean@yahoo.com" style={{ padding: "0px 0px 0px 20px" }}>E-mail : cliquez ici (inbox)</a></p>
-                        <p className="mycontact">Mob : (+33) 6 14 31 73 56</p>
+                        <p className="contact-link"><a href="mailto:benjamin_h_dean@yahoo.com" style={{ padding: "0px 0px 0px 20px" }}>E-mail: click here (inbox)</a></p>
+                        <p className="mycontact">Mobile: (+33) 6 14 31 73 56</p>
                         <p className="mycontact">Paris, France</p>
                     </div>
 
@@ -83,19 +83,19 @@ export default function ContactUs() {
             <div className="contact-form" >
                 <form onSubmit={sendEmail}>
                     <div><input type="hidden" name="contact_number" /></div>
-                    <div><label>Nom</label></div>
+                    <div><label>Name</label></div>
                     <div><input type="text" name="user_name" value={name} onChange={e => setName(e.target.value)} required /></div>
                     <div><label>E-mail</label></div>
                     <div><input type="email" name="user_email" value={email} onChange={e => setEmail(e.target.value)} required /></div>
                     <div><label>Message</label></div>
                     <div><textarea name="message" value={message} onChange={e => setMessage(e.target.value)} required /></div>
-                    <div><input type="submit" value="Envoyer" className="button" disabled={loading === true} /></div>
+                    <div><input type="submit" value="Send" className="button" disabled={loading === true} /></div>
                     {/* Si le message n'est pas null alors on affiche la div avec la valeur du message */}
                     {/* le className est égal à: 1) notif-success si l'attribut success est true | 2) notif-error sinon . A se souvenir : ?=si, :=sinon (opérateur Terner(Ternary), en javascript)*/}
                     {notif.message !== null && <div className={notif.success === true ? "notif-success" : "notif-error"}>{notif.message}</div>}
                 </form>
                 <div className="extra-contact-box">
-                    <p>Mob : (+33) 6 14 31 73 56</p>
+                    <p>Mobile: (+33) 6 14 31 73 56</p>
                     <p>Paris, France</p>
                 </div>
             </div>

@@ -80,7 +80,7 @@ const Home = (props) => {
             <section className="banner-three">
                 <div className="blocks">
                     <div className="block">
-                        <h1 className="subtitle"><em>➝&nbsp;&nbsp;&nbsp;&nbsp;Mon profil</em></h1>
+                        <h1 className="subtitle"><em>➝&nbsp;&nbsp;&nbsp;&nbsp;My profile</em></h1>
                         <p style={{ lineHeight: "2.1", color: "#000000" }}>Do you want to create, design, redesign, develop and optimize user journeys, ergonomics, experience and interfaces for your client? Access my creative and technical services. Feel free to download my resume and my portfolio.</p>
                     </div>
                     <div className="block">
