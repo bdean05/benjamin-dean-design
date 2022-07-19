@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 
 const MaxMin = (props) => {
-    const [gap, setGap] = useState(0)
-    const [number, setNumber] = useState(null)
-    const [listNumber, setListNumber] = useState([])
+    const [gap, setGap] = useState(null)  // 0 est une valeur, mais pas null. On choisit d'initialiser à null
+    const [number, setNumber] = useState(null)  // 
+    const [listNumber, setListNumber] = useState([]) // State StateSetter 
 
     function biggerNumber() {
         let max = listNumber[0] // on cree une variable qui prends la valeur du premier élément de la liste
